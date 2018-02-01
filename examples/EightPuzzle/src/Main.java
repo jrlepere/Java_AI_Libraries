@@ -1,9 +1,9 @@
+import informed_search.AStar;
+import informed_search.IHeuristic;
 import problem.Action;
 import problem.Problem;
 import problem.State;
-import search_algorithm.AStar;
-import search_algorithm.IHeuristic;
-import search_algorithm.ResultObject;
+import search.ResultObject;
 
 public class Main {
 
@@ -35,6 +35,7 @@ public class Main {
 			s = action.execute(s);
 		}
 		System.out.println(s);
+		
 	}
 	
 }

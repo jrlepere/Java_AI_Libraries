@@ -1,4 +1,4 @@
-package search_algorithm;
+package search;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -9,8 +9,13 @@ import problem.Action;
  * @author JLepere2
  * @date 02/01/2018
  */
-public abstract class ASearch implements ISearch {
+public abstract class PathSearch implements ISearch {
 
+	/**
+	 * Searches up from the found goal node for a list of actions to solve the problem.
+	 * @param gaol the goal Node
+	 * @return a list of actions
+	 */
 	public List<Action> search(Node goal) {
 		List<Action> searchSequence = new LinkedList<>();
 		Node n = goal;

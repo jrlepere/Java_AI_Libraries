@@ -1,4 +1,8 @@
-package search_algorithm;
+package uninformed_search;
+
+import search.BestFirstSearch;
+import search.IPriority;
+import search.Node;
 
 /**
  * Implements UniformCost search.

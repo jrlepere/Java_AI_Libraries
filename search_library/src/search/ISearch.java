@@ -1,7 +1,5 @@
-package search_algorithm;
-import java.util.List;
+package search;
 
-import problem.Action;
 import problem.Problem;
 
 /**
@@ -10,13 +8,6 @@ import problem.Problem;
  * @date 02/01/2018
  */
 public interface ISearch {
-	
-	/**
-	 * Searches up from the found goal node for a list of actions to solve the problem.
-	 * @param gaol the goal Node
-	 * @return a list of actions
-	 */
-	public List<Action> search(Node goal);
 	
 	/**
 	 * Executes the search algorithm on the passed Problem.

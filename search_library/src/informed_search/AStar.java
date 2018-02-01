@@ -1,4 +1,8 @@
-package search_algorithm;
+package informed_search;
+
+import search.BestFirstSearch;
+import search.IPriority;
+import search.Node;
 
 /**
  * Implements the AStar algorithm

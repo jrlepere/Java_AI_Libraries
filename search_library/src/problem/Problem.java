@@ -12,7 +12,7 @@ public interface Problem {
 	 * Gets the initial State.
 	 * @return the initial State.
 	 */
-	public State getInitialChild();
+	public State getInitialState();
 	
 	/**
 	 * Gets all possible actions for this problem

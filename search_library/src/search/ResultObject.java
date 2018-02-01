@@ -1,4 +1,4 @@
-package search_algorithm;
+package search;
 import java.util.List;
 
 import problem.Action;

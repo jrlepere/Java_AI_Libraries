@@ -1,4 +1,4 @@
-package search_algorithm;
+package informed_search;
 
 import problem.State;
 

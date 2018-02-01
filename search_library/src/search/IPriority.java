@@ -1,4 +1,4 @@
-package search_algorithm;
+package search;
 
 /**
  * A priority interface to define an evaluation function.

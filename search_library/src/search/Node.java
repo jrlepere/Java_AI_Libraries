@@ -1,4 +1,4 @@
-package search_algorithm;
+package search;
 import problem.Action;
 import problem.State;
 

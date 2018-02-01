@@ -1,4 +1,4 @@
-package search_algorithm;
+package search;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -15,7 +15,7 @@ import problem.State;
  * @author JLepere2
  * @date 02/01/2018
  */
-public abstract class BestFirstSearch extends ASearch {
+public abstract class BestFirstSearch extends PathSearch {
 
 	public BestFirstSearch(IPriority p) {
 		this.priorityFunction = p;
@@ -24,7 +24,7 @@ public abstract class BestFirstSearch extends ASearch {
 	public ResultObject execute(Problem p) {
 		
 		// --- INITIALIZATION --- //
-		Node iNode = new Node(p.getInitialChild(), null, null);
+		Node iNode = new Node(p.getInitialState(), null, null);
 		PNode pNode = new PNode(iNode,this.priorityFunction.getPriority(iNode));
 		
 		// --- FRONTIER --- //

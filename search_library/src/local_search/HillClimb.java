@@ -3,9 +3,8 @@ package local_search;
 import problem.Action;
 import problem.Problem;
 import problem.State;
+import search.IResultObject;
 import search.LocalSearch;
-import search.Node;
-import search.ResultObject;
 
 /**
  * Local search Hill Climb algorithm.
@@ -18,7 +17,7 @@ public class HillClimb extends LocalSearch {
 		super(function);
 	}
 	
-	public ResultObject execute(Problem p) {
+	public IResultObject execute(Problem p) {
 		State currentState = p.getInitialState();
 		while (true) {
 			State bestSuccessor = null;
@@ -34,7 +33,7 @@ public class HillClimb extends LocalSearch {
 				}
 			}
 			if (bestSuccessor == null || (this.function.execute(currentState) > this.function.execute(bestSuccessor))) {
-				return new ResultObject(null, new Node(currentState, null, null), null, 0);
+				return new LocalSearchResult(currentState);
 			} else {
 				currentState = bestSuccessor;
 			}

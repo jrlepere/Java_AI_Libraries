@@ -1,0 +1,6 @@
+
+import problem.Problem;
+
+public class EightPuzzleProject implements Problem {
+
+}

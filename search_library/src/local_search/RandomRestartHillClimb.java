@@ -2,9 +2,8 @@ package local_search;
 
 import problem.Problem;
 import problem.State;
+import search.IResultObject;
 import search.LocalSearch;
-import search.Node;
-import search.ResultObject;
 
 /**
  * Random Restart Hill Climbing to find a goal node. Essentially just restarts the problem. It is assumed that the initial node generated from the Problem class is random.
@@ -17,11 +16,11 @@ public class RandomRestartHillClimb extends LocalSearch {
 		super(fun);
 	}
 
-	public ResultObject execute(Problem p) {
+	public IResultObject execute(Problem p) {
 		while (true) {
-			State resultState = (new HillClimb(this.function)).execute(p).getGoalState();
+			State resultState = (State) (new HillClimb(this.function)).execute(p).getObject(LocalSearchResult.GOAL_STATE);
 			if (p.isGoalState(resultState)) {
-				return new ResultObject(null, new Node(resultState, null, null), null, 0);
+				return new LocalSearchResult(resultState);
 			}
 		}
 	}

@@ -1,7 +1,7 @@
 package problem;
 
 /**
- * A State object for the specific eight puzzle problem.
+ * A State object for the problem.
  * @author JLepere2
  * @date 01/25/2018
  */

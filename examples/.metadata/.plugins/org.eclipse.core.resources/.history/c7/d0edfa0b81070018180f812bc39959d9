@@ -1,0 +1,6 @@
+
+import search_library.problem.Problem;
+
+public class EightPuzzleProject extends Problem {
+
+}

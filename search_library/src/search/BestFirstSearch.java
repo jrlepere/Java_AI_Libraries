@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.function.Predicate;
 
+import informed_search.InformedSearchResult;
 import problem.Action;
 import problem.Problem;
 import problem.State;
@@ -15,13 +16,13 @@ import problem.State;
  * @author JLepere2
  * @date 02/01/2018
  */
-public abstract class BestFirstSearch extends PathSearch {
+public abstract class BestFirstSearch implements ISearch {
 
 	public BestFirstSearch(IPriority p) {
 		this.priorityFunction = p;
 	}
 	
-	public ResultObject execute(Problem p) {
+	public IResultObject execute(Problem p) {
 		
 		// --- INITIALIZATION --- //
 		Node iNode = new Node(p.getInitialState(), null, null);
@@ -47,10 +48,15 @@ public abstract class BestFirstSearch extends PathSearch {
 			}
 			
 			pNode = frontier.remove();
+			
+			// --- GOAL TEST --- //
 			if (p.isGoalState(pNode.node.getState())) {
-				return new ResultObject(iNode, pNode.node, search(pNode.node), frontier.size() + explored.size());
+				return new InformedSearchResult(pNode.node);
 			}
+			
 			explored.add(pNode.node.getState());
+			
+			// --- ADD NEW STATES TO THE FRONTIER --- //
 			for (Action action : p.getActions()) {
 				if (!action.canExecute(pNode.node.getState())) continue;
 				State newState = action.execute(pNode.node.getState());

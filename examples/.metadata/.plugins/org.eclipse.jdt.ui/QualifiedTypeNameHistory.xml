@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="problem.Problem"/>
+<fullyQualifiedTypeName name="problem.State"/>
+<fullyQualifiedTypeName name="EightPuzzleProject"/>
+<fullyQualifiedTypeName name="search_algorithm.AStar"/>
+<fullyQualifiedTypeName name="search_algorithm.IHeuristic"/>
+<fullyQualifiedTypeName name="EightPuzzleState"/>
+<fullyQualifiedTypeName name="problem.Action"/>
+<fullyQualifiedTypeName name="local_search.HillClimb"/>
+<fullyQualifiedTypeName name="local_search.ObjectiveFunction"/>
+<fullyQualifiedTypeName name="local_search.StochasticHillClimb"/>
+</qualifiedTypeNameHistroy>

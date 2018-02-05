@@ -6,7 +6,7 @@ import problem.Problem;
 import problem.State;
 
 public class EightPuzzleProject implements Problem {
-
+	
 	public State getInitialState() {
 		return new EightPuzzleState(new int[]{2,5,8,6,0,3,1,7,4});
 	}
@@ -20,9 +20,9 @@ public class EightPuzzleProject implements Problem {
         return actions;
 	}
 
-	public boolean isGoalState(State arg0) {
-        int[] goal = {0,1,2,3,4,5,6,7,8};
-        int[] tileLocations = ((EightPuzzleState) arg0).getTileLocations();
+	public boolean isGoalState(State s) {
+		int[] goal = {0,1,2,3,4,5,6,7,8};
+        int[] tileLocations = ((EightPuzzleState) s).getTileLocations();
         for (int i = 0; i < goal.length; i ++) {
                 if (tileLocations[i] != goal[i]) {
                         return false;

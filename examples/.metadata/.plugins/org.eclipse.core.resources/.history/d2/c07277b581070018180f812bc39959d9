@@ -1,0 +1,6 @@
+
+import problem.State;
+
+public class EightPuzzleState implements State {
+
+}

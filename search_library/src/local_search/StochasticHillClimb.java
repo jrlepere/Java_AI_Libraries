@@ -7,9 +7,8 @@ import java.util.Random;
 import problem.Action;
 import problem.Problem;
 import problem.State;
+import search.IResultObject;
 import search.LocalSearch;
-import search.Node;
-import search.ResultObject;
 
 /**
  * Stochastic Hill Climbing to find the goal node. A random successor is selected from the set of all successors resulting in a positive climb.
@@ -22,7 +21,7 @@ public class StochasticHillClimb extends LocalSearch {
 		super(fun);
 	}
 
-	public ResultObject execute(Problem p) {
+	public IResultObject execute(Problem p) {
 		State currentState = p.getInitialState();
 		while (true) {
 			List<State> improvementStates = new ArrayList<>();
@@ -34,7 +33,7 @@ public class StochasticHillClimb extends LocalSearch {
 				}
 			}
 			if (improvementStates.size() == 0) {
-				return new ResultObject(null, new Node(currentState, null, null), null, 0);
+				return new LocalSearchResult(currentState);
 			} else {
 				currentState = improvementStates.get(gen.nextInt(improvementStates.size()));
 			}

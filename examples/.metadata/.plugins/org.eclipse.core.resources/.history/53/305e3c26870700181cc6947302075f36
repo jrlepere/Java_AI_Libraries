@@ -1,0 +1,22 @@
+
+import java.util.List;
+
+import problem.Action;
+import problem.Problem;
+import problem.State;
+
+public class EightPuzzleProject implements Problem {
+
+	public List<Action> getActions() {
+		return null;
+	}
+
+	public State getInitialChild() {
+		return new EightPuzzleState(new int[]{2,5,8,6,0,3,1,7,4});
+	}
+
+	public boolean isGoalState(State arg0) {
+		return false;
+	}
+
+}

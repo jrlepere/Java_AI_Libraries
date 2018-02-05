@@ -1,0 +1,19 @@
+
+import problem.Action;
+import problem.State;
+
+public class EightPuzzleAction implements Action {
+
+	public boolean canExecute(State arg0) {
+		return false;
+	}
+
+	public State execute(State arg0) {
+		return null;
+	}
+
+	public int getCost() {
+		return 0;
+	}
+
+}

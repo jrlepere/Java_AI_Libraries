@@ -1,17 +1,20 @@
+import java.util.List;
+
 import informed_search.AStar;
 import informed_search.IHeuristic;
+import informed_search.InformedSearchResult;
 import problem.Action;
 import problem.Problem;
 import problem.State;
-import search.ResultObject;
+import search.IResultObject;
 
 public class Main {
 
 	public static void main(String[] args) {
 		Problem p = new EightPuzzleProject();
 		AStar aStar = new AStar(new IHeuristic() {
-			public int execute(State arg0) {
-                int[] tileLocations = ((EightPuzzleState) arg0).getTileLocations();
+			public int execute(State s) {
+                int[] tileLocations = ((EightPuzzleState) s).getTileLocations();
                 int distSum = 0;
                 for (int i = 0; i < tileLocations.length; i ++) {
                     if (tileLocations[i] == 0) continue;
@@ -27,10 +30,10 @@ public class Main {
 			}
 		});
 		
-		ResultObject res = aStar.execute(p);
-		System.out.println("DEPTH: " + res.getTotalDepth());
-		State s = res.getInitialState();
-		for (Action action : res.getActionSequence()) {
+		IResultObject res = aStar.execute(p);
+		System.out.println("DEPTH: " + res.getObject(InformedSearchResult.DEPTH));
+		State s = (State) res.getObject(InformedSearchResult.INITIAL_STATE);
+		for (Action action : (List<Action>) res.getObject(InformedSearchResult.ACTIONS)) {
 			System.out.println(s);
 			s = action.execute(s);
 		}

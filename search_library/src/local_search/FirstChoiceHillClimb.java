@@ -3,9 +3,8 @@ package local_search;
 import problem.Action;
 import problem.Problem;
 import problem.State;
+import search.IResultObject;
 import search.LocalSearch;
-import search.Node;
-import search.ResultObject;
 
 /**
  * First Choice Hill Climbing where the first successor is chosen such that the choice is positive relative to the current state.
@@ -18,7 +17,7 @@ public class FirstChoiceHillClimb extends LocalSearch {
 		super(fun);
 	}
 
-	public ResultObject execute(Problem p) {
+	public IResultObject execute(Problem p) {
 		State currentState = p.getInitialState();
 		while (true) {
 			boolean found = false;;
@@ -32,7 +31,7 @@ public class FirstChoiceHillClimb extends LocalSearch {
 				}
 			}
 			if (!found) {
-				return new ResultObject(null, new Node(currentState, null, null), null, 0);
+				return new LocalSearchResult(currentState);
 			}
 		}
 	}

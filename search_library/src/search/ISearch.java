@@ -14,6 +14,6 @@ public interface ISearch {
 	 * @param p the Problem p
 	 * @return the result of executing the search algorithm
 	 */
-	public ResultObject execute(Problem p);
+	public IResultObject execute(Problem p);
 	
 }

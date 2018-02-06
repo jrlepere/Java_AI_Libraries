@@ -1,0 +1,30 @@
+import java.util.List;
+
+import problem.Action;
+import problem.Problem;
+import problem.State;
+
+/**
+ * A project class for the Eight Queens problem
+ * @author JLepere2
+ * @date 02/05/2018
+ */
+public class EightQueensProblem implements Problem {
+
+	public State getInitialState() {
+		return null;
+	}
+
+	@Override
+	public List<Action> getActions() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean isGoalState(State s) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

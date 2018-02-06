@@ -1,0 +1,34 @@
+import problem.Action;
+import problem.State;
+
+/**
+ * An Action class for the Eight Queens problem
+ * @author JLepere2
+ *
+ */
+public class EightQueensAction implements Action {
+
+	public EightQueensAction(int queenRow, int newQueenColumn) {
+		this.queenRow = queenRow;
+		this.newQueenColumn = newQueenColumn;
+	}
+	
+	public boolean canExecute(State s) {
+		return true;
+	}
+
+	public State execute(State s) {
+		
+		return null;
+	}
+
+	@Override
+	public int getCost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	private int queenRow;
+	private int newQueenColumn;
+
+}

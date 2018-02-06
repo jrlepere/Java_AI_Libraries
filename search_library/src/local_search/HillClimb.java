@@ -32,7 +32,7 @@ public class HillClimb extends LocalSearch {
 					}
 				}
 			}
-			if (bestSuccessor == null || (this.function.execute(currentState) > this.function.execute(bestSuccessor))) {
+			if (bestSuccessor == null || (this.function.execute(currentState) >= this.function.execute(bestSuccessor))) {
 				return new LocalSearchResult(currentState);
 			} else {
 				currentState = bestSuccessor;

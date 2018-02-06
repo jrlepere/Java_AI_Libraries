@@ -1,0 +1,11 @@
+
+import problem.State;
+
+/**
+ * A State for the Eight Queens problem
+ * @author JLepere2
+ * @date 02/05/2018
+ */
+public class EightQueensState extends State {
+
+}

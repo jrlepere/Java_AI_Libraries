@@ -5,7 +5,7 @@ import problem.Action;
 import problem.Problem;
 import problem.State;
 
-public class EightPuzzleProject implements Problem {
+public class EightPuzzleProblem implements Problem {
 	
 	public State getInitialState() {
 		return new EightPuzzleState(new int[]{2,5,8,6,0,3,1,7,4});

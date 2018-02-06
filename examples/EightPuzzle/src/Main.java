@@ -11,7 +11,7 @@ import search.IResultObject;
 public class Main {
 
 	public static void main(String[] args) {
-		Problem p = new EightPuzzleProject();
+		Problem p = new EightPuzzleProblem();
 		AStar aStar = new AStar(new IHeuristic() {
 			public int execute(State s) {
                 int[] tileLocations = ((EightPuzzleState) s).getTileLocations();

@@ -1,0 +1,33 @@
+package search_algorithm;
+
+import problem.Action;
+import problem.Problem;
+import problem.State;
+
+public class HillClimb extends LocalSearch {
+
+	public HillClimb(ObjectiveFunction function) {
+		super(function);
+	}
+	
+	public State execute(Problem p) {
+		State currentState = p.getInitialState();
+		while (true) {
+			State bestSuccessor = null;
+			for (Action action : p.getActions()) {
+				if (!action.canExecute(currentState)) continue;
+				State successor = action.execute(currentState);
+				if (bestSuccessor == null) {
+					bestSuccessor = successor;
+				} else {
+					if (this.function.execute(successor) > this.function.execute(bestSuccessor)) {
+						bestSuccessor = successor;
+					}
+				}
+			}
+			if (bestSuccessor == null) return currentState;
+		}
+		return null;
+	}
+
+}

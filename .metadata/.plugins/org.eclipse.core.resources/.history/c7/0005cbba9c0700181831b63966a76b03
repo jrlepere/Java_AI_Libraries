@@ -1,0 +1,12 @@
+package search_algorithm;
+
+import problem.Problem;
+
+public class HillClimb implements ISearch {
+
+	public ResultObject execute(Problem p) {
+		Node n = new Node(p.getInitialState(), null, null);
+		return null;
+	}
+
+}

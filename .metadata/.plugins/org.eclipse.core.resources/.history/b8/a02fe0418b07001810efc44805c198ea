@@ -1,0 +1,10 @@
+package search_algorithm;
+
+/**
+ * Implements UniformCost search.
+ * @author JLepere2
+ *
+ */
+public class UniformCostSearch {
+
+}

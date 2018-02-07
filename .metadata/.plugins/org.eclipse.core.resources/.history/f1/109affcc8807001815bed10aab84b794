@@ -1,0 +1,10 @@
+package search_algorithm;
+
+/**
+ * A priority interface to define a priority.
+ * @author JLepere2
+ * @date 02/01/2018
+ */
+public interface IPriority {
+	int getPriority(Node n);
+}

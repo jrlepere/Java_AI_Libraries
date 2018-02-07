@@ -1,0 +1,10 @@
+package local_search;
+
+/**
+ * Implementation for simulated annealing local search.
+ * @author JLepere2
+ * @date 
+ */
+public class SimulatedAnnealing {
+
+}

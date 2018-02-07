@@ -1,0 +1,26 @@
+import local_search.ObjectiveFunction;
+import problem.State;
+
+public class NQueensObjectiveFunction implements ObjectiveFunction {
+	
+	public NQueensObjectiveFunction(int n) {
+		this.n = n;
+	}
+	
+	public int execute(State s) {
+		int count = 0;
+		int[] queenLocations = ((NQueensState) s).getQueenLocations();
+		for (int row = 0; row < n; row ++) {
+			int diagOffset = 1;
+			for (int col = row + 1; col < n; col ++) {
+				if (queenLocations[row] == queenLocations[col]) count ++;
+				else if (queenLocations[row] == queenLocations[col] + diagOffset) count ++;
+				else if (queenLocations[row] == queenLocations[col] - diagOffset) count ++;
+				diagOffset += 1;
+			}
+		}
+		return (-1)*count;
+	}
+	
+	private int n;
+}

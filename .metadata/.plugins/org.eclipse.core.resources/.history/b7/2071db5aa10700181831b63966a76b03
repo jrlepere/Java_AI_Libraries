@@ -1,0 +1,37 @@
+package local_search;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import problem.Action;
+import problem.Problem;
+import problem.State;
+import search.LocalSearch;
+import search.Node;
+import search.ResultObject;
+
+public class StochasticHillClimb extends LocalSearch {
+
+	public StochasticHillClimb(ObjectiveFunction fun) {
+		super(fun);
+	}
+
+	public ResultObject execute(Problem p) {
+		State currentState = p.getInitialState();
+		while (true) {
+			List<Action> actions = new ArrayList<>();
+			for (Action action : p.getActions()) {
+				if (!action.canExecute(currentState)) continue;
+				actions.add(action);
+			}
+			if (bestSuccessor == null || (this.function.execute(currentState) > this.function.execute(bestSuccessor))) {
+				return new ResultObject(null, new Node(bestSuccessor, null, null), null, 0);
+			} else {
+				currentState = bestSuccessor;
+			}
+		}
+	}
+	
+	Random gen = new Random();
+
+}

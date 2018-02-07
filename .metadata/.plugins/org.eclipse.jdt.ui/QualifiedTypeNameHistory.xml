@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="state.State"/>
+<fullyQualifiedTypeName name="search_algorithm.PrioritySearch"/>
+<fullyQualifiedTypeName name="node.Node"/>
+<fullyQualifiedTypeName name="problem.Problem"/>
+<fullyQualifiedTypeName name="search_algorithm.IHeuristic"/>
+<fullyQualifiedTypeName name="search_algorithm.IPriority"/>
+<fullyQualifiedTypeName name="search_algorithm.ResultObject"/>
+<fullyQualifiedTypeName name="local_search.HillClimb"/>
+<fullyQualifiedTypeName name="search.ResultObject"/>
+<fullyQualifiedTypeName name="search.Node"/>
+<fullyQualifiedTypeName name="search.LocalSearch"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="search.InformedSearchResult"/>
+<fullyQualifiedTypeName name="problem.State"/>
+<fullyQualifiedTypeName name="problem.Action"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="local_search.SimulatedAnnealing"/>
+<fullyQualifiedTypeName name="local_search.ObjectiveFunction"/>
+<fullyQualifiedTypeName name="local_search.SimulatedAnnealing.Scheduler"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="local_search.LocalSearchResult"/>
+<fullyQualifiedTypeName name="local_search.RandomRestartHillClimb"/>
+</qualifiedTypeNameHistroy>

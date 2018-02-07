@@ -1,0 +1,13 @@
+package search;
+
+import java.util.TreeMap;
+
+import problem.State;
+
+public class LocalSearchResultObject extends AResultObject {
+
+	public LocalSearchResultObject(State goalState) {
+		super(new TreeMap<>(){goalState});
+	}
+	
+}

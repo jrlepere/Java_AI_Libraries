@@ -1,0 +1,20 @@
+package local_search;
+
+import problem.Problem;
+import problem.State;
+import search.LocalSearch;
+import search.ResultObject;
+
+public class RandomRestartHillClimb extends LocalSearch {
+
+	public RandomRestartHillClimb(ObjectiveFunction fun) {
+		super(fun);
+	}
+
+	public ResultObject execute(Problem p) {
+		while (true) {
+			State res = (new HillClimb(this.function)).execute(p).getGoalState();
+		}
+	}
+
+}

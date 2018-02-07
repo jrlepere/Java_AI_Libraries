@@ -1,0 +1,11 @@
+package search;
+
+import java.util.TreeMap;
+
+public class LocalSearchResultObject extends AResultObject {
+
+	public LocalSearchResultObject() {
+		super(new TreeMap<>());
+	}
+	
+}

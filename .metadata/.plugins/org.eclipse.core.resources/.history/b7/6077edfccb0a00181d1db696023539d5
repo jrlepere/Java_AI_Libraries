@@ -1,0 +1,56 @@
+package search;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.TreeMap;
+
+import problem.Action;
+import problem.State;
+
+public class InformedSearchResult extends AResultObject {
+
+	public InformedSearchResult(Node goalNode) {
+		super(createMap(goalNode));
+	}
+	
+	private static TreeMap<String, Object> createMap(Node goalNode) {
+		TreeMap<String,Object> map = new TreeMap<>();
+		map.put(INITIAL_STATE, initialState);
+		map.put(GOAL_STATE, goalNode.getState());
+		map.put(ACTIONS, search(goalNode));
+		map.put(COST, goalNode.getCost());
+		map.put(DEPTH, goalNode.getDepth());
+		return map;
+	}
+	
+	/**
+	 * Searches up from the found goal node for a list of actions to solve the problem.
+	 * @param gaol the goal Node
+	 * @return a list of actions
+	 */
+	private static Helper search(Node goal) {
+		List<Action> searchSequence = new LinkedList<>();
+		Node n = goal;
+		while (n.getAction() != null) {
+			searchSequence.add(0, n.getAction());
+			n = n.getParent();
+		}
+		return new Helper(n.getState(), searchSequence);
+	}
+	
+	class Helper {
+		Helper(State initState, List<Action> actionSeq) {
+			this.init = initState;
+			this.actions = actionSeq;
+		}
+		private State init;
+		private List<Action> actions;
+	}
+	
+	public static final String INITIAL_STATE = "INITIAL_STATE";
+	public static final String GOAL_STATE = "GOAL_STATE";
+	public static final String ACTIONS = "ACTIONS";
+	public static final String COST = "COST";
+	public static final String DEPTH = "DEPTH";
+	
+}

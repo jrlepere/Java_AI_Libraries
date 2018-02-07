@@ -1,0 +1,15 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class NQueensStateBitStreamConverstionTest {
+
+	@Test
+	public void test() {
+		int[] queenLocations = new int[]{0,1,2,3};
+		NQueensStateBitStreamConverstion c = new NQueensStateBitStreamConverstion(queenLocations.length);
+		NQueensState s = new NQueensState(queenLocations);
+		assertEquals(c.getBitStream(new NQueensState(queenLocations)),"");
+	}
+
+}

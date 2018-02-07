@@ -1,0 +1,20 @@
+package search_algorithm;
+import java.util.LinkedList;
+import java.util.List;
+
+import problem.Action;
+import problem.Problem;
+
+public abstract class ASearch implements ISearch<Problem<?,?>> {
+
+	public <A> List<A> search(Node goal) {
+		List<A> searchSequence = new LinkedList<>();
+		Node n = goal;
+		while (n.getAction() != null) {
+			searchSequence.add(0, n.getAction());
+			n = n.getParent();
+		}
+		return searchSequence;
+	}
+	
+}

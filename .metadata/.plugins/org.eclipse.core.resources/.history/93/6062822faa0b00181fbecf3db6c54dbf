@@ -1,0 +1,17 @@
+package local_search;
+
+import problem.Problem;
+import search.IResultObject;
+import search.LocalSearch;
+
+public class GeneticAlgorithmSearch extends LocalSearch {
+
+	public GeneticAlgorithmSearch(ObjectiveFunction fun) {
+		super(fun);
+	}
+
+	public IResultObject execute(Problem p) {
+		return null;
+	}
+
+}

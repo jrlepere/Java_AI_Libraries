@@ -1,0 +1,20 @@
+package search_algorithm;
+
+import informed_search.BestFirstSearch;
+
+/**
+ * Implements UniformCost search.
+ * @author JLepere2
+ * @date 02/01/2018
+ */
+public class UniformCostSearch extends BestFirstSearch {
+
+	public UniformCostSearch() {
+		super(new IPriority() {
+			public int getPriority(Node n) {
+				return n.getCost();
+			}
+		});
+	}
+	
+}

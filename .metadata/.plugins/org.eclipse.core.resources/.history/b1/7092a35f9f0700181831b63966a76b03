@@ -1,0 +1,9 @@
+package search_algorithm;
+
+import problem.State;
+
+public interface ObjectiveFunction {
+	
+	public int execute(State s);
+	
+}

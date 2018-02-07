@@ -1,0 +1,5 @@
+package search;
+
+public class LocalSearchResultObject extends AResultObject {
+
+}

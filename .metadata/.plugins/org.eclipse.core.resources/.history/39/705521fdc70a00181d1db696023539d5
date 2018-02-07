@@ -1,0 +1,18 @@
+package search;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+public abstract class AResultObject implements IResultObject {
+
+	public AResultObject() {
+		map = new TreeMap<>();
+	}
+	
+	public Object get(String field) {
+		return null;
+	}
+	
+	protected Map<String, Object> map;
+	
+}

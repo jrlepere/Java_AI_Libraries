@@ -1,0 +1,31 @@
+package search;
+
+import java.util.List;
+import java.util.TreeMap;
+
+import problem.Action;
+import problem.State;
+
+public class InformedSearchResult extends AResultObject {
+
+	public InformedSearchResult(State initialState, Node goalNode, List<Action> actionSequence) {
+		super(createMap(initialState, goalNode, actionSequence));
+	}
+	
+	private static TreeMap<String, Object> createMap(State initialState, Node goalNode, List<Action> actionSequence) {
+		TreeMap<String,Object> map = new TreeMap<>();
+		map.put(INITIAL_STATE, initialState);
+		map.put(GOAL_STATE, goalNode.getState());
+		map.put(ACTIONS, actionSequence);
+		map.put(COST, goalNode.getCost());
+		map.put(DEPTH, goalNode.getDepth());
+		return map;
+	}
+	
+	public static final String INITIAL_STATE = "INITIAL_STATE";
+	public static final String GOAL_STATE = "GOAL_STATE";
+	public static final String ACTIONS = "ACTIONS";
+	public static final String COST = "COST";
+	public static final String DEPTH = "DEPTH";
+	
+}

@@ -1,0 +1,12 @@
+package search_algorithm;
+
+import problem.Problem;
+
+public class HillClimb implements ISearch {
+
+	public ResultObject execute(Problem p) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

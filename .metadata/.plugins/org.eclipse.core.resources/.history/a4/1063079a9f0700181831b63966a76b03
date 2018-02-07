@@ -1,0 +1,13 @@
+package local_search;
+
+import search.ISearch;
+
+public abstract class LocalSearch implements ISearch {
+
+	public LocalSearch(ObjectiveFunction fun) {
+		this.function = fun;
+	}
+	
+	protected ObjectiveFunction function;
+	
+}

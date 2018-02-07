@@ -1,0 +1,201 @@
+package local_search;
+
+import java.util.ArrayList;
+import java.util.Random;
+
+import problem.Problem;
+import problem.State;
+import search.IResultObject;
+import search.LocalSearch;
+
+public class GeneticAlgorithmSearch extends LocalSearch {
+
+	public GeneticAlgorithmSearch(ObjectiveFunction fun, StateBitStreamConversion stateToBitStream, int populationSize, int mutateProbability, int fitnessGoal, int maxGenerations) {
+		super(fun);
+		this.stateToBitStream = stateToBitStream;
+		this.populationSize = populationSize;
+		this.mutateProbability = mutateProbability;
+		this.fitnessGoal = fitnessGoal;
+		this.maxGenerations = maxGenerations;
+	}
+
+	public IResultObject execute(Problem problem) {
+		
+		// --- INITIALIZATION --- //
+		Population population = new Population(populationSize);
+		for (int i = 0; i < populationSize; i ++) {
+			population.addIndividual(new Individual(problem.getInitialState()));
+		}
+		
+		int generations = 0;
+		while (population.fittestIndividual.fitnessScore < fitnessGoal && generations < maxGenerations) {
+			Population newPopulation = new Population(populationSize);
+			for (int i = 0; i < populationSize; i ++) {
+				Individual parent1 = population.getParent();
+				Individual parent2 = population.getParent();
+				Individual child = population.breed(parent1, parent2);
+				child = population.mutate(child);
+				newPopulation.addIndividual(child);
+			}
+			population = newPopulation;
+			populationRankings = newPopulationRankings;
+			populationRankingsSum = newPopulationRankingsSum;
+			generations += 1;
+		}
+		
+		return new LocalSearchResult(population[getFittestIndividualIndex(populationRankings)]);
+	}
+	
+	/**
+	 * Mutates an individual.
+	 * @param individual the individual to mutate
+	 * @return the mutated individual
+	 */
+	private State mutate(State individual) {
+		String bitStream = stateToBitStream.getBitStream(individual);
+		String newBitStream = "";
+		for (int i = 0; i < bitStream.length(); i ++) {
+			int bit;
+			if (i != bitStream.length() - 1) {
+				bit = Integer.parseInt(bitStream.substring(i, i+1));
+			} else {
+				bit = Integer.parseInt(bitStream.substring(i));
+			}
+			if (gen.nextDouble() < mutateProbability) {
+				bit = (bit + 1) % 2;
+			}
+			newBitStream += bit;
+		}
+		return stateToBitStream.convertBitStream(newBitStream);
+	}
+	
+	private class Individual {
+		public Individual(State s) {
+			this.state = s;
+			this.fitnessScore = function.execute(s);
+		}
+		private State state;
+		private int fitnessScore;
+	}
+	
+	/**
+	 * A Population class for the genertics algorithm
+	 * @author JLepere2
+	 * @date 02/07/2018
+	 */
+	private class Population {
+		
+		/**
+		 * Creates a new Population.
+		 * @param populationSize the population size
+		 */
+		public Population(int populationSize) {
+			this.population = new Individual[populationSize];
+			this.currentSize = 0;
+			this.totalFitnessScore = 0;
+			this.fittestIndividual = null;
+		}
+		
+		/**
+		 * Adds an individual to the Population.
+		 * @param i the individual
+		 */
+		public void addIndividual(Individual i) {
+			population[currentSize] = i;
+			currentSize += 1;
+			totalFitnessScore = i.fitnessScore;
+			if (fittestIndividual == null) {
+				fittestIndividual = i;
+			} else {
+				if (i.fitnessScore > fittestIndividual.fitnessScore) {
+					fittestIndividual = i;
+				}
+			}
+		}
+		
+		/**
+		 * Gets a parent Individual for breeding giving priority to those individuals with a higher fitness function.
+		 * @return an Individual for breeding.
+		 */
+		private Individual getParent() {
+			int r = gen.nextInt(totalFitnessScore);
+			int c = 0;
+			for (int i = 0; i < populationSize; i ++) {
+				c += population[i].fitnessScore;
+				if (c > r) {
+					return population[i];
+				}
+			}
+			return null;
+		}
+		
+		/**
+		 * Breeds two individuals to create a child.
+		 * @param i1 the first individual
+		 * @param i2 the second individual
+		 * @return a child
+		 */
+		private Individual breed(Individual i1, Individual i2) {
+			String p1BitStream = stateToBitStream.getBitStream(i1.state);
+			String p2BitStream = stateToBitStream.getBitStream(i2.state);
+			int crossPoint = gen.nextInt(p1BitStream.length());
+			return new Individual(stateToBitStream.convertBitStream(p1BitStream.substring(0, crossPoint) + p2BitStream.substring(crossPoint)));
+		}
+		
+		/**
+		 * Mutates an individual with some probability
+		 * @param individual the individual
+		 * @return a new mutated individual
+		 */
+		private Individual mutate(Individual individual) {
+			String bitStream = stateToBitStream.getBitStream(individual.state);
+			String newBitStream = "";
+			for (int i = 0; i < bitStream.length(); i ++) {
+				int bit;
+				if (i != bitStream.length() - 1) {
+					bit = Integer.parseInt(bitStream.substring(i, i+1));
+				} else {
+					bit = Integer.parseInt(bitStream.substring(i));
+				}
+				if (gen.nextDouble() < mutateProbability) {
+					bit = (bit + 1) % 2;
+				}
+				newBitStream += bit;
+			}
+			return new Individual(stateToBitStream.convertBitStream(newBitStream));
+		}
+		
+		private Individual[] population;
+		private int currentSize;
+		private int totalFitnessScore;
+		private Individual fittestIndividual;
+	}
+	
+	/**
+	 * An interface to define state and bit stream conversion required for the genetics algorithms
+	 * @author JLepere2
+	 * @date 02/07/2018
+	 */
+	public interface StateBitStreamConversion {
+		/**
+		 * Converts a state to a string of bits.
+		 * @param s the state
+		 * @return a string of bits
+		 */
+		public String getBitStream(State s);
+		/**
+		 * Converts a string of bits to a state.
+		 * @param s the string of bits
+		 * @return a state
+		 */
+		public State convertBitStream(String s);
+	}
+	
+	private StateBitStreamConversion stateToBitStream;
+	private int populationSize;
+	private int mutateProbability;
+	private int fitnessGoal;
+	private int maxGenerations;
+	Random gen = new Random();
+
+}

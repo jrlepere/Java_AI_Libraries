@@ -1,0 +1,9 @@
+package local_search;
+
+import problem.State;
+
+public interface ObjectiveFunction {
+	
+	public int execute(State s);
+	
+}

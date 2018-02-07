@@ -1,0 +1,7 @@
+package local_search;
+
+import search.LocalSearch;
+
+public class GeneticAlgorithmSearch extends LocalSearch {
+
+}

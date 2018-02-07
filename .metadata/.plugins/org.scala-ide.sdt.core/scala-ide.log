@@ -1,0 +1,869 @@
+2018-01-29 13:30:14,782 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-01-29 13:32:03,012 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-01-29 13:32:03,224 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-01-29 13:32:04,429 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-01-29 13:35:23,632 ERROR [Compiler Processing Task] - System.err - The method public List<IAction> search(node.Node)  is wrongly tagged as containing missing types
+2018-01-29 13:35:41,231 ERROR [Compiler Processing Task] - System.err - The method public List<IAction> search(node.Node)  is wrongly tagged as containing missing types
+2018-02-01 09:17:31,224 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 09:18:51,131 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 09:18:51,517 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 09:45:35,181 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 10:37:53,198 ERROR [ModalContext] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.launching.JREContainerInitializer
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 10:38:21,679 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 10:38:23,457 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 10:39:08,104 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 11:04:47,086 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 11:05:16,086 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 11:05:16,195 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 11:05:22,073 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 11:43:17,478 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 11:43:43,862 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 11:43:43,924 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 11:44:43,092 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 12:02:14,629 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 12:02:50,690 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 12:02:50,839 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 12:03:29,798 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 14:00:54,825 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 14:01:45,324 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 14:01:45,522 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-01 14:03:35,406 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-05 14:39:12,961 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-05 14:42:01,419 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-05 14:42:01,896 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-05 14:47:55,981 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-05 16:45:36,705 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-05 16:45:58,857 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-05 16:46:04,763 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-05 16:46:04,826 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-06 16:20:44,284 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-06 16:22:18,540 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-06 16:22:18,679 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-06 16:22:56,543 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-06 17:51:17,059 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-06 17:53:14,764 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-06 17:53:15,072 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-06 17:54:32,106 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-07 12:15:39,359 ERROR [Worker-40] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:85)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:49)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:118)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:15:53,973 ERROR [Worker-41] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:85)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:49)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:118)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:15:58,097 ERROR [Worker-43] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:15:58,098 ERROR [Worker-43] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:15:58,098 ERROR [Worker-43] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:15:58,099 ERROR [Worker-43] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:15:58,100 ERROR [Worker-43] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:16:52,634 ERROR [Worker-41] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:16:52,634 ERROR [Worker-41] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:16:52,635 ERROR [Worker-41] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:16:52,635 ERROR [Worker-41] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:16:52,637 ERROR [Worker-41] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:16:52,637 ERROR [Worker-41] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:17:05,915 ERROR [Worker-43] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 12:17:13,646 ERROR [Worker-40] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:11:33,626 ERROR [Worker-59] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getAllChildren(VariableContentProvider.java:85)
+	at org.eclipse.debug.internal.ui.model.elements.VariableContentProvider.getChildCount(VariableContentProvider.java:49)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:118)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:54:29,193 ERROR [Worker-60] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:31,270 ERROR [Worker-56] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:31,272 ERROR [Worker-56] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:31,272 ERROR [Worker-56] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:31,273 ERROR [Worker-56] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:31,273 ERROR [Worker-56] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:31,273 ERROR [Worker-56] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:31,274 ERROR [Worker-56] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:32,303 ERROR [Worker-66] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:32,304 ERROR [Worker-66] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:32,304 ERROR [Worker-66] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:32,305 ERROR [Worker-66] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:32,305 ERROR [Worker-66] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:32,305 ERROR [Worker-66] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2018-02-07 14:55:32,305 ERROR [Worker-66] - ScalaLocalVariable - Exception while retrieving variable's value
+com.sun.jdi.InvalidStackFrameException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:291)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValues(StackFrameImpl.java:139)
+	at org.eclipse.jdi.internal.StackFrameImpl.getValue(StackFrameImpl.java:75)
+	at org.scalaide.debug.internal.model.ScalaLocalVariable.doGetValue(ScalaVariable.scala:72)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1$$anonfun$apply$1.apply(ScalaVariable.scala:35)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.debug.internal.model.ScalaVariable$$anonfun$getValue$1.apply(ScalaVariable.scala:35)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.model.ScalaVariable.getValue(ScalaVariable.scala:34)
+	at org.eclipse.debug.internal.ui.model.elements.VariableLabelProvider.getLabel(VariableLabelProvider.java:95)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.getLabel(ElementLabelProvider.java:315)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider.retrieveLabel(ElementLabelProvider.java:218)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelUpdater.run(ElementLabelProvider.java:165)
+	at org.eclipse.debug.internal.ui.model.elements.ElementLabelProvider$LabelJob.run(ElementLabelProvider.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

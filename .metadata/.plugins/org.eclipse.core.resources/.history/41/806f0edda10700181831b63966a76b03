@@ -1,0 +1,18 @@
+package local_search;
+
+import problem.Problem;
+import search.LocalSearch;
+import search.ResultObject;
+
+public class FirstChoiceHillClimb extends LocalSearch {
+
+	public FirstChoiceHillClimb(ObjectiveFunction fun) {
+		super(fun);
+	}
+
+	public ResultObject execute(Problem p) {
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,12 @@
+package problem;
+
+/**
+ * A State object for the specific eight puzzle problem.
+ * @author JLepere2
+ * @date 01/25/2018
+ */
+public interface State {
+	
+	public boolean equals(Object o);
+	
+}

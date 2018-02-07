@@ -1,0 +1,37 @@
+package local_search;
+
+import problem.Problem;
+import problem.State;
+import search.IResultObject;
+import search.LocalSearch;
+
+public class GeneticAlgorithmSearch extends LocalSearch {
+
+	public GeneticAlgorithmSearch(ObjectiveFunction fun, Mutation mutation, int populationSize) {
+		super(fun);
+		this.mutation = mutation;
+		this.populationSize = populationSize;
+	}
+
+	public IResultObject execute(Problem p) {
+		State[] population = new State[populationSize];
+		for (int i = 0; i < populationSize; i ++) {
+			population[i] = p.getInitialState();
+		}
+		int[] populationRankings = new int[populationSize];
+		for (int i = 0; i < populationSize; i ++) {
+			populationRankings[i] = function.execute(population[i]);
+		}
+		State[] newPopulation = new State[populationSize];
+		
+		return null;
+	}
+	
+	public interface Mutation {
+		public State mutate(State s);
+	}
+	
+	private Mutation mutation;
+	private int populationSize;
+
+}

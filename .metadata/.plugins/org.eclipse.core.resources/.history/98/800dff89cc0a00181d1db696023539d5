@@ -1,0 +1,14 @@
+package search;
+
+import java.util.List;
+
+import problem.Action;
+import problem.State;
+
+public class UninformedSearchResult extends InformedSearchResult {
+
+	public UninformedSearchResult(Node goalNode) {
+		super(goalNode);
+	}
+
+}

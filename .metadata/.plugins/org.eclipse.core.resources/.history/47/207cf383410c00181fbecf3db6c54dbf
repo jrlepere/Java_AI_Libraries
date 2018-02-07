@@ -1,0 +1,17 @@
+import local_search.GeneticAlgorithmSearch.StateBitStreamConversion;
+import problem.State;
+
+public class NQueensStateBitStreamConverstion implements StateBitStreamConversion {
+
+	public String getBitStream(State s) {
+		int[] queenLocations = ((NQueensState) s).getQueenLocations();
+		return null;
+	}
+
+	@Override
+	public State convertBitStream(String s) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

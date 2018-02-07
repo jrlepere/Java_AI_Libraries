@@ -1,0 +1,10 @@
+package local_search;
+
+/**
+ * Implementation for the LocalBeamSearch algorithm
+ * @author JLepere2
+ * @date 02/07/2018
+ */
+public class LocalBeamSearch extends LocalSearch {
+
+}

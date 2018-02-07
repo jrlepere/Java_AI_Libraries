@@ -1,0 +1,9 @@
+package search;
+
+public class LocalSearchResultObject extends AResultObject {
+
+	public LocalSearchResultObject() {
+		super(new TreeMap<>())
+	}
+	
+}

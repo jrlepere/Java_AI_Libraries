@@ -1,0 +1,5 @@
+package local_search;
+
+public class FirstChoiceHillClimb {
+
+}

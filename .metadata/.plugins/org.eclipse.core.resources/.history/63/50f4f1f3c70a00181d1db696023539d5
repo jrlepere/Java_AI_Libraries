@@ -1,0 +1,17 @@
+package search;
+
+import java.util.Map;
+
+public abstract class AResultObject implements IResultObject {
+
+	public AResultObject() {
+		
+	}
+	
+	public Object get(String field) {
+		return null;
+	}
+	
+	private Map<String, Object> map;
+	
+}

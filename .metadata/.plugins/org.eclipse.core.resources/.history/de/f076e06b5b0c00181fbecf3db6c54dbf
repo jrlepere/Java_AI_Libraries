@@ -1,0 +1,28 @@
+package local_search;
+
+import problem.Problem;
+import search.IResultObject;
+import search.LocalSearch;
+
+/**
+ * Implementation for the LocalBeamSearch algorithm
+ * @author JLepere2
+ * @date 02/07/2018
+ */
+public class LocalBeamSearch extends LocalSearch {
+
+	/**
+	 * Creates a LocalBeamSearch object for executing the algorithm.
+	 * @param fun the objective function
+	 * @param k the number of nodes to keep memory
+	 */
+	public LocalBeamSearch(ObjectiveFunction fun, int k) {
+		super(fun);
+	}
+	
+	public IResultObject execute(Problem p) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

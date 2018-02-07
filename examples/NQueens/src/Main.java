@@ -1,35 +1,32 @@
+import local_search.GeneticAlgorithmSearch;
 import local_search.LocalSearchResult;
 import local_search.ObjectiveFunction;
 import local_search.RandomRestartHillClimb;
 import problem.Problem;
-import problem.State;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		int n = 30;
+		int n = 8;
 		Problem p = new NQueensProblem(n);
-		RandomRestartHillClimb algo = new RandomRestartHillClimb(new ObjectiveFunction() {
-			public int execute(State s) {
-				int count = 0;
-				int[] queenLocations = ((NQueensState) s).getQueenLocations();
-				for (int row = 0; row < n; row ++) {
-					int diagOffset = 1;
-					for (int col = row + 1; col < n; col ++) {
-						if (queenLocations[row] == queenLocations[col]) count ++;
-						else if (queenLocations[row] == queenLocations[col] + diagOffset) count ++;
-						else if (queenLocations[row] == queenLocations[col] - diagOffset) count ++;
-						diagOffset += 1;
-					}
-				}
-				return (-1)*count;
-			}
-		});
+		ObjectiveFunction objectiveFunction =  new NQueensObjectiveFunction(n);
 		
-		NQueensState goalState = (NQueensState) algo.execute(p).getObject(LocalSearchResult.GOAL_STATE);
-		System.out.println(goalState);
-		System.out.println(p.isGoalState(goalState));
+		RandomRestartHillClimb algo1 = new RandomRestartHillClimb(objectiveFunction);
+		NQueensState goalState1 = (NQueensState) algo1.execute(p).getObject(LocalSearchResult.GOAL_STATE);
+		System.out.println(goalState1);
+		System.out.println(p.isGoalState(goalState1));
+		
+		NQueensStateBitStreamConverstion sbsConversion = new NQueensStateBitStreamConverstion(n);
+		int populationSize = 100;
+		double mutateProbability = 0.02;
+		int fitnessGoal = ((n-1)*(n))/2;
+		int maxGenerations = 5000;
+		GeneticAlgorithmSearch algo2 = new GeneticAlgorithmSearch(objectiveFunction, sbsConversion, populationSize, mutateProbability, fitnessGoal, maxGenerations);
+		NQueensState goalState2 = (NQueensState) algo2.execute(p).getObject(LocalSearchResult.GOAL_STATE);
+		System.out.println(goalState2);
+		System.out.println(p.isGoalState(goalState2));
+		
 		
 	}
 	

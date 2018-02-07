@@ -1,5 +1,8 @@
 package local_search;
 
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
 import problem.Action;
 import problem.Problem;
 import problem.State;
@@ -20,22 +23,19 @@ public class HillClimb extends LocalSearch {
 	public IResultObject execute(Problem p) {
 		State currentState = p.getInitialState();
 		while (true) {
-			State bestSuccessor = null;
+			PriorityQueue<State> successors = new PriorityQueue<>(new Comparator<State>() {
+				public int compare(State o1, State o2) {
+					return function.execute(o2) - function.execute(o1);
+				}
+			});
 			for (Action action : p.getActions()) {
 				if (!action.canExecute(currentState)) continue;
-				State successor = action.execute(currentState);
-				if (bestSuccessor == null) {
-					bestSuccessor = successor;
-				} else {
-					if (this.function.execute(successor) > this.function.execute(bestSuccessor)) {
-						bestSuccessor = successor;
-					}
-				}
+				successors.add(action.execute(currentState));
 			}
-			if (bestSuccessor == null || (this.function.execute(currentState) >= this.function.execute(bestSuccessor))) {
+			if (successors.size() == 0 || (this.function.execute(currentState) >= this.function.execute(successors.peek()))) {
 				return new LocalSearchResult(currentState);
 			} else {
-				currentState = bestSuccessor;
+				currentState = successors.remove();
 			}
 		}
 	}

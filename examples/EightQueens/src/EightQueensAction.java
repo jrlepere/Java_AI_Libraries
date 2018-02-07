@@ -6,7 +6,7 @@ import problem.State;
 /**
  * An Action class for the Eight Queens problem
  * @author JLepere2
- *
+ * @date 02/05/2019
  */
 public class EightQueensAction implements Action {
 

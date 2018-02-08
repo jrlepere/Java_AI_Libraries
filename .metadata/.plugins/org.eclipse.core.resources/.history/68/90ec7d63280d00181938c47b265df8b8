@@ -1,0 +1,12 @@
+package uninformed_search;
+
+import search.ISearch;
+
+/**
+ * Implementation of Iterative Deepening Search
+ * @author JLepere2
+ * @date 02/08/2018
+ */
+public class IterativeDeepeningSearch implements ISearch {
+
+}

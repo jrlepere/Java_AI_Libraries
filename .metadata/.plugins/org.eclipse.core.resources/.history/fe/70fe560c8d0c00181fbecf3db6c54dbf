@@ -1,0 +1,14 @@
+package uninformed_search;
+
+import problem.Problem;
+import search.IResultObject;
+import search.ISearch;
+
+public class BreadthFirstSearch implements ISearch {
+
+	public IResultObject execute(Problem p) {
+		List<>
+		return null;
+	}
+
+}

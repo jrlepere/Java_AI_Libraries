@@ -1,0 +1,10 @@
+package uninformed_search;
+
+/**
+ * Implementation of Depth Limited Search (DLS).
+ * @author JLepere2
+ * @date 02/08/2018
+ */
+public class DepthLimitedSearch implements ISearch {
+
+}

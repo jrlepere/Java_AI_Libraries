@@ -1,0 +1,10 @@
+package uninformed_search;
+
+/**
+ * Implementation of Iterative Deepening Search
+ * @author JLepere2
+ * @date 02/08/2018
+ */
+public class IterativeDeepeningSearch {
+
+}

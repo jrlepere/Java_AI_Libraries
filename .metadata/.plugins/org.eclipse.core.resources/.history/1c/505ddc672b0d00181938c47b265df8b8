@@ -1,0 +1,12 @@
+package csp;
+
+public class UnaryConstraint<X extends Variable<?, ?>> implements Constraint {
+
+	
+	
+	public boolean isViolation() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,5 +1,0 @@
-package search_algorithm;
-
-public interface IPriority {
-	int getPriority(Node n);
-}

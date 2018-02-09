@@ -1,0 +1,13 @@
+import java.util.Set;
+
+import csp.Domain;
+
+public class CADomain implements Domain<Colors> {
+
+	@Override
+	public Set getValues() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

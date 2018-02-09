@@ -1,0 +1,15 @@
+package csp;
+
+public class ValueRestrictionConstraint<X extends Variable<D, V>, D extends Domain<V>, V> extends UnaryConstraint<X> {
+
+	public ValueRestrictionConstraint(X var, V value) {
+		super(var);
+	}
+
+	@Override
+	public boolean isViolation() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

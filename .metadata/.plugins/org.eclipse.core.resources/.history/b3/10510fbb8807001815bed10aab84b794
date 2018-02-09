@@ -1,7 +1,0 @@
-package search_algorithm;
-
-import problem.State;
-
-public interface IHeuristic {
-	int execute(State s);
-}

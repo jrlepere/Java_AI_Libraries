@@ -1,0 +1,19 @@
+import java.util.Set;
+
+import csp.CSP;
+
+public class CAProblem implements CSP<CAVariable, Object, Object> {
+
+	@Override
+	public Set getVariables() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set getConstraints() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

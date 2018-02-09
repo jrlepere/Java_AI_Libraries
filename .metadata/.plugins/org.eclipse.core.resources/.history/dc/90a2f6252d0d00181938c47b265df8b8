@@ -1,0 +1,5 @@
+package csp;
+
+public abstract class BinaryConstraint implements Constraint {
+
+}

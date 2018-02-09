@@ -1,0 +1,9 @@
+package csp;
+
+public abstract class UnaryConstraint<X extends Variable<?, ?>> implements Constraint {
+	
+	public UnaryConstraint() {
+		
+	}
+
+}

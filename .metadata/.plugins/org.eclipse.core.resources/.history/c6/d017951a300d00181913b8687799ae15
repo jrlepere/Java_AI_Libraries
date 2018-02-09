@@ -1,0 +1,23 @@
+import csp.Variable;
+
+public class CAVariable implements Variable<CADomain, Color> {
+
+	private CAVariable() {
+		this.domain = new CADomain();
+		this.assignment = null;
+	}
+	
+	public CADomain getDomain() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Color getAssignment() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	private CADomain domain;
+	private Color assignment;
+
+}

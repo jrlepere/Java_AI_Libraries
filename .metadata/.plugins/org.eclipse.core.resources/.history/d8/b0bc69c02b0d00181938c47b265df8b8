@@ -1,0 +1,5 @@
+package csp;
+
+public class DomainRestrictionConstraint<X extends Variable> extends UnaryConstraint<X>{
+
+}

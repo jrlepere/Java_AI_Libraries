@@ -1,0 +1,11 @@
+package csp;
+
+public class DomainRestrictionConstraint<X extends Variable> extends UnaryConstraint<X>{
+
+	@Override
+	public boolean isViolation() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

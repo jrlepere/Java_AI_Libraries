@@ -1,0 +1,18 @@
+import csp.Domain;
+import csp.Variable;
+
+public class CAVariable implements Variable {
+
+	@Override
+	public Domain getDomain() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Object getAssignment() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

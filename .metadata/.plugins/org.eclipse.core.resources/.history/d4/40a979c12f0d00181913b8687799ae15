@@ -1,0 +1,21 @@
+import java.util.Set;
+import java.util.TreeSet;
+
+import csp.Domain;
+
+public class CADomain implements Domain<Colors> {
+
+	public CADomain() {
+		Set<Colors> colors = new TreeSet<>();
+		colors.add(Colors.RED);
+		colors.add(Colors.BLUE);
+		colors.add(Colors.GREEN);
+	}
+	
+	public Set<Colors> getValues() {
+		return colors;
+	}
+	
+	private Set<Colors> colors;
+
+}

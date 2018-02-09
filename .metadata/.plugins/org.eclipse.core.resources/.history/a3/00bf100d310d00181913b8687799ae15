@@ -1,0 +1,5 @@
+import csp.EqualVariablesConstraint;
+
+public class CAConstraint extends EqualVariablesConstraint<CAVariable, CADomain, Color>{
+
+}

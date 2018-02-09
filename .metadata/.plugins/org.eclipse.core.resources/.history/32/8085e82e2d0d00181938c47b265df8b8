@@ -1,5 +1,0 @@
-package csp;
-
-public abstract class BinaryConstraint<X extends Variable<?,?>> implements Constraint {
-
-}

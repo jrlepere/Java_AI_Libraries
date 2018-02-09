@@ -1,7 +1,0 @@
-package uninformed_search;
-
-import search.ISearch;
-
-public class BreadthFirstSearch implements ISearch {
-
-}

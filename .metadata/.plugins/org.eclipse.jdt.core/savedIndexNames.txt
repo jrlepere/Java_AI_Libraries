@@ -1,8 +1,0 @@
-INDEX VERSION 1.129+/Users/JLepere2/Desktop/Java_AI_Libraries/.metadata/.plugins/org.eclipse.jdt.core
-3490818749.index
-864857827.index
-3610672399.index
-4134858757.index
-1505259549.index
-746504416.index
-1052796690.index

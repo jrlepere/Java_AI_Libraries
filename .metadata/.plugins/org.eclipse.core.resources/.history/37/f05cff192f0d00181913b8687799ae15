@@ -1,5 +1,0 @@
-import csp.Domain;
-
-public class CADomain implements Domain {
-
-}

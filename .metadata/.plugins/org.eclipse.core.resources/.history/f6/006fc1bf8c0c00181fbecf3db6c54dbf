@@ -1,5 +1,0 @@
-package uninformed_search;
-
-public class BreadthFirstSearch {
-
-}

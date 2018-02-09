@@ -1,5 +1,0 @@
-import csp.CSP;
-
-public class CAProblem implements CSP {
-
-}

@@ -1,5 +1,0 @@
-import csp.Variable;
-
-public class CAVariable implements Variable {
-
-}

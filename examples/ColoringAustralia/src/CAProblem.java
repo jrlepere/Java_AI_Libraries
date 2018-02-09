@@ -1,0 +1,52 @@
+import java.util.Set;
+import java.util.TreeSet;
+
+import csp.CSP;
+import csp.Constraint;
+
+public class CAProblem implements CSP<CAVariable, CADomain, Color> {
+
+	public CAProblem() {
+		
+		// Variables
+		variables = new TreeSet<>();
+		CAVariable WA = new CAVariable();
+		CAVariable NT = new CAVariable();
+		CAVariable Q = new CAVariable();
+		CAVariable SA = new CAVariable();
+		CAVariable NSW = new CAVariable();
+		CAVariable V = new CAVariable();
+		CAVariable T = new CAVariable();
+		variables.add(WA);
+		variables.add(NT);
+		variables.add(Q);
+		variables.add(SA);
+		variables.add(NSW);
+		variables.add(V);
+		variables.add(T);
+		
+		// Constraints
+		constraints = new TreeSet<>();
+		constraints.add(new CAConstraint(SA, WA));
+		constraints.add(new CAConstraint(SA, NT));
+		constraints.add(new CAConstraint(SA, Q));
+		constraints.add(new CAConstraint(SA, NSW));
+		constraints.add(new CAConstraint(SA, V));
+		constraints.add(new CAConstraint(WA, NT));
+		constraints.add(new CAConstraint(NT, Q));
+		constraints.add(new CAConstraint(Q, NSW));
+		constraints.add(new CAConstraint(NSW, V));
+	}
+	
+	public Set<CAVariable> getVariables() {
+		return variables;
+	}
+
+	public Set<Constraint> getConstraints() {
+		return constraints;
+	}
+	
+	private Set<CAVariable> variables;
+	private Set<Constraint> constraints;
+
+}

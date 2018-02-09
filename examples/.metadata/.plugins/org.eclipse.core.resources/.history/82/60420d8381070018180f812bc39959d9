@@ -1,6 +1,0 @@
-
-import problem.Action;
-
-public class EightPuzzleAction implements Action {
-
-}

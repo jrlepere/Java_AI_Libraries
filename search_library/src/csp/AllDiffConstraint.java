@@ -2,6 +2,11 @@ package csp;
 
 import java.util.List;
 
+/**
+ * All different constraint
+ * @author JLepere2
+ * @date 02/10/2018
+ */
 public class AllDiffConstraint<X extends Variable<?,?>> implements Constraint {
 
 	public AllDiffConstraint(List<X> variables) {

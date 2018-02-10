@@ -1,0 +1,20 @@
+import java.util.List;
+
+import csp.Domain;
+
+public class SudokuDomain implements Domain<Digit>{
+
+	public SudokuDomain() {
+		digits = new List<>();
+		digits.add(Digit.ONE);
+	}
+	
+	@Override
+	public List<Digit> getValues() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	private List<Digit> digits;
+
+}

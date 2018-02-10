@@ -1,0 +1,27 @@
+import java.util.LinkedList;
+import java.util.List;
+
+import csp.Domain;
+
+public class SudokuDomain implements Domain<Digit>{
+
+	public SudokuDomain() {
+		digits = new LinkedList<>();
+		digits.add(Digit.ONE);
+		digits.add(Digit.TWO);
+		digits.add(Digit.THREE);
+		digits.add(Digit.FOUR);
+		digits.add(Digit.FIVE);
+		digits.add(Digit.SIX);
+		digits.add(Digit.SEVEN);
+		digits.add(Digit.EIGHT);
+		digits.add(Digit.NINE);
+	}
+	
+	public List<Digit> getValues() {
+		return digits;
+	}
+	
+	private List<Digit> digits;
+
+}

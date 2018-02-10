@@ -1,0 +1,11 @@
+import java.util.List;
+
+import csp.AllDiffConstraint;
+
+public class SudokuConstraint extends AllDiffConstraint<SudokuVariable>{
+
+	public SudokuConstraint(List<SudokuVariable> variables) {
+		super(variables);
+	}
+
+}

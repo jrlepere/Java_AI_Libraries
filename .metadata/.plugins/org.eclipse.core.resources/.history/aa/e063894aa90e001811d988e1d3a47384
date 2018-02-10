@@ -1,0 +1,20 @@
+package csp;
+
+import java.util.List;
+
+public class AllDiffConstraint<X extends Variable<?,?>> implements Constraint {
+
+	public AllDiffConstraint(List<X> variables) {
+		this.variables = variables;
+	}
+	
+	public boolean isViolation() {
+		for (Variable v : variables) {
+			
+		}
+		return false;
+	}
+	
+	private List<Variable<?,?>> variables;
+
+}

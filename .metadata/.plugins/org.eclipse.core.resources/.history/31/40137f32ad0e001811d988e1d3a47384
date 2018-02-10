@@ -1,0 +1,42 @@
+import java.util.LinkedList;
+import java.util.List;
+
+import csp.CSP;
+import csp.Constraint;
+
+public class SudokuProblem implements CSP<SudokuVariable, SudokuDomain, Integer> {
+
+	public SudokuProblem() {
+		this.variables = new LinkedList<>();
+		int[][] sudokuBoard = new int[9][9];
+		sudokuBoard[0] = new int[]{2,2,0,0,0,0,0,0,0};
+		sudokuBoard[0] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[0] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[0] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[0] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[0] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[0] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[0] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[0] = new int[]{0,0,0,0,0,0,0,0,0};
+		for (int row = 0; row < 9; row ++) {
+			for (int col = 0; col < 9; col ++) {
+				SudokuVariable sv = new SudokuVariable();
+				if (sudokuBoard[row][col] != 0) sv.assign(sudokuBoard[row][col]);
+				variables.add(sv);
+			}
+		}
+		this.constraints = new LinkedList<>();
+	}
+	
+	public List<SudokuVariable> getVariables() {
+		return variables;
+	}
+
+	public List<Constraint> getConstraints() {
+		return constraints;
+	}
+	
+	private List<SudokuVariable> variables;
+	private List<Constraint> constraints;
+
+}

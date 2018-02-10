@@ -1,0 +1,59 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+import csp.CSP;
+import csp.Constraint;
+
+public class SudokuProblem implements CSP<SudokuVariable, SudokuDomain, Integer> {
+
+	public SudokuProblem() {
+		int[][] sudokuBoard = new int[9][9];
+		sudokuBoard[0] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[1] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[2] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[3] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[4] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[5] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[6] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[7] = new int[]{0,0,0,0,0,0,0,0,0};
+		sudokuBoard[8] = new int[]{0,0,0,0,0,0,0,0,0};
+		this.variables = new LinkedList<>();
+		
+		ArrayList<List<SudokuVariable>> rows = new ArrayList<>(); 
+		ArrayList<List<SudokuVariable>> cols = new ArrayList<>();
+		ArrayList<List<SudokuVariable>> squares = new ArrayList<>();
+		for (int i = 0; i < 9; i ++) {
+			rows.add(new LinkedList<>());
+			cols.add(new LinkedList<>());
+			squares.add(new LinkedList<>());
+		}
+		for (int row = 0; row < 9; row ++) {
+			for (int col = 0; col < 9; col ++) {
+				SudokuVariable sv = new SudokuVariable();
+				if (sudokuBoard[row][col] != 0) sv.assign(sudokuBoard[row][col]);
+				rows.get(row).add(sv);
+				cols.get(col).add(sv);
+				cols.get(row/3 + col/3).add(sv);
+				variables.add(sv);
+			}
+		}
+		constraints = new LinkedList<>();
+		for (int i = 0; i < 9; i ++) {
+			constraints.add(new SudokuConstraint(rows.get(i)));
+			constraints.add(new SudokuConstraint(cols.get(i)));
+		}
+	}
+	
+	public List<SudokuVariable> getVariables() {
+		return variables;
+	}
+
+	public List<Constraint> getConstraints() {
+		return constraints;
+	}
+	
+	private List<SudokuVariable> variables;
+	private List<Constraint> constraints;
+
+}

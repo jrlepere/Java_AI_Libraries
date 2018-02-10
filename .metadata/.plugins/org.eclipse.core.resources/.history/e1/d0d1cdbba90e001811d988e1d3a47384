@@ -1,0 +1,24 @@
+import java.util.List;
+
+import csp.CSP;
+import csp.Constraint;
+
+public class SudokuProblem implements CSP<SudokuVariable, SudokuDomain, Digits> {
+
+	public SudokuProblem() {
+		this.variables = new LinkedList<SudokuVariable>();
+	}
+	
+	public List<SudokuVariable> getVariables() {
+		return null;
+	}
+
+	@Override
+	public List<Constraint> getConstraints() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	private List<SudokuVariable> variables;
+
+}

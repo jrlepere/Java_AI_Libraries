@@ -1,0 +1,33 @@
+import csp.Variable;
+
+public class SudokuVariable implements Variable<SudokuDomain, Digit>{
+
+	public SudokuVariable() {
+		this.domain = new SudokuDomain();
+		this.assignment = null;
+	}
+	
+	public SudokuDomain getDomain() {
+		return domain;
+	}
+
+	public void assign(Digit v) {
+		this.assignment = v;
+	}
+
+	@Override
+	public boolean isAssigned() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Digit getAssignment() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private SudokuDomain domain;
+	private Digit assignment;
+	
+}

@@ -1,0 +1,21 @@
+import java.util.List;
+
+import csp.Variable;
+import csp_search.CSPDepthSearch;
+import search.IResultObject;
+
+public class Main {
+
+	public static void main(String[] args) {
+		SudokuProblem p = new SudokuProblem();
+		CSPDepthSearch<SudokuVariable, SudokuDomain, Integer> ds = new CSPDepthSearch<>();
+		IResultObject res = ds.execute(p);
+		int count = 0;
+		for (Variable<SudokuDomain, Integer> v : (List<Variable<SudokuDomain, Integer>>) res.getObject("ASSIGNMENT")) {
+			System.out.print(v + " ");
+			count += 1;
+			if (count % 9 == 0) System.out.println();
+		}
+	}
+	
+}

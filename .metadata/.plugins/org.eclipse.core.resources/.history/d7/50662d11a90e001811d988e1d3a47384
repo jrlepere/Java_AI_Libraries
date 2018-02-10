@@ -1,0 +1,12 @@
+package csp;
+
+public class AllDiffConstraint implements Constraint {
+
+	public AllDiffConstraint(List<Variable> variables)
+	
+	public boolean isViolation() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

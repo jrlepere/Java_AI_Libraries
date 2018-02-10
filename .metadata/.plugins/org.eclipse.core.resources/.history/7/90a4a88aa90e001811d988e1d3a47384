@@ -1,0 +1,5 @@
+import csp.AllDiffConstraint;
+
+public class SudokuConstraint extends AllDiffConstraint<SudokuVariable>{
+
+}

@@ -1,0 +1,13 @@
+import java.util.List;
+
+import csp.Domain;
+
+public class SudokuDomain implements Domain<Digits>{
+
+	@Override
+	public List<Digits> getValues() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

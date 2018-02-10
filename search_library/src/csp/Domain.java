@@ -1,7 +1,7 @@
 package csp;
 
-import java.util.Set;
+import java.util.List;
 
 public interface Domain<V> {
-	public Set<V> getValues();
+	public List<V> getValues();
 }

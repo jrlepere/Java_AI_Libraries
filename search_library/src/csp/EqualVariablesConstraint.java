@@ -7,6 +7,7 @@ public class EqualVariablesConstraint<X extends Variable<D,V>, D extends Domain<
 	}
 
 	public boolean isViolation() {
+		if (!var1.isAssigned() || !var2.isAssigned()) return false;
 		return this.var1.getAssignment().equals(this.var2.getAssignment());
 	}
 

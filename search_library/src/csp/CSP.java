@@ -1,6 +1,6 @@
 package csp;
 
-import java.util.Set;
+import java.util.List;
 
 /**
  * An interface for a Constraint Satisfaction Problem
@@ -9,8 +9,8 @@ import java.util.Set;
  */
 public interface CSP<X extends Variable<D,V>, D extends Domain<V>, V> {
 	
-	public Set<X> getVariables();
+	public List<X> getVariables();
 	
-	public Set<Constraint> getConstraints();
+	public List<Constraint> getConstraints();
 	
 }

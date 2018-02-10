@@ -30,7 +30,6 @@
 <fullyQualifiedTypeName name="search.Node"/>
 <fullyQualifiedTypeName name="uninformed_search.UninformedSearchResult"/>
 <fullyQualifiedTypeName name="problem.Action"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="problem.State"/>
 <fullyQualifiedTypeName name="csp.UnaryConstraint"/>
 <fullyQualifiedTypeName name="csp.Variable"/>
@@ -41,4 +40,9 @@
 <fullyQualifiedTypeName name="CAVariable"/>
 <fullyQualifiedTypeName name="csp.EqualVariablesConstraint"/>
 <fullyQualifiedTypeName name="CAConstraint"/>
+<fullyQualifiedTypeName name="CAProblem"/>
+<fullyQualifiedTypeName name="csp_search.CSPDepthSearch"/>
+<fullyQualifiedTypeName name="search.IResultObject"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="csp_search.CSPResultObject"/>
 </qualifiedTypeNameHistroy>

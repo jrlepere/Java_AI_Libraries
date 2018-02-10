@@ -4,6 +4,11 @@ import java.util.List;
 import csp.CSP;
 import csp.Constraint;
 
+/**
+ * Definition for the Coloring Australia problem
+ * @author JLepere2
+ * @date 02/10/2018
+ */
 public class CAProblem implements CSP<CAVariable, CADomain, Color> {
 
 	public CAProblem() {

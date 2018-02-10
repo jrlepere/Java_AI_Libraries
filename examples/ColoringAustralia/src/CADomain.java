@@ -3,6 +3,11 @@ import java.util.List;
 
 import csp.Domain;
 
+/**
+ * The Domain for the Coloring Australia problem
+ * @author JLepere2
+ * @date 02/10/2018
+ */
 public class CADomain implements Domain<Color> {
 
 	public CADomain() {

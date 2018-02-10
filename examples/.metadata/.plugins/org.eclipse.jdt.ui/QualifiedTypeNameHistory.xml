@@ -14,4 +14,7 @@
 <fullyQualifiedTypeName name="local_search.HillClimb"/>
 <fullyQualifiedTypeName name="local_search.RandomRestartHillClimb"/>
 <fullyQualifiedTypeName name="local_search.ObjectiveFunction"/>
+<fullyQualifiedTypeName name="csp.CSP"/>
+<fullyQualifiedTypeName name="csp.Domain"/>
+<fullyQualifiedTypeName name="csp.Variable"/>
 </qualifiedTypeNameHistroy>

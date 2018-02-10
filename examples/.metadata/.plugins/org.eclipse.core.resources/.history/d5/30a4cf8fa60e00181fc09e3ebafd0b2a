@@ -1,0 +1,5 @@
+import csp.Domain;
+
+public class SudokuDomain implements Domain<Digits>{
+
+}

@@ -1,0 +1,30 @@
+import csp.Domain;
+import csp.Variable;
+
+public class SudokuVariable implements Variable<SudokuDomain, Digits>{
+
+	@Override
+	public Domain getDomain() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void assign(Object v) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean isAssigned() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Object getAssignment() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

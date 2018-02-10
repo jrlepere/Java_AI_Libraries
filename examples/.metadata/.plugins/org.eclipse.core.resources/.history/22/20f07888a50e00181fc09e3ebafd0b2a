@@ -1,0 +1,19 @@
+import java.util.List;
+
+import csp.Domain;
+import csp.Variable;
+import csp_search.CSPDepthSearch;
+import search.IResultObject;
+
+public class Main {
+
+	public static void main(String[] args) {
+		CAProblem p = new CAProblem();
+		CSPDepthSearch<CAVariable, CADomain, Color> ds = new CSPDepthSearch<>();
+		IResultObject res = ds.execute(p);
+		for (Variable v : (List<Variable>) res.getObject("ASSIGNMENT")) {
+			System.out.println(v);
+		}
+	}
+	
+}

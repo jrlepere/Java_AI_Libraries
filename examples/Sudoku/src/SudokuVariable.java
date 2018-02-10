@@ -1,7 +1,7 @@
 import csp.Variable;
 
 /**
- * A Variable for Sudoku
+ * A Variable for Sudoku.
  * @author JLepere2
  * @date 02/10/2018
  */

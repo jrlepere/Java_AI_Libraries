@@ -3,7 +3,7 @@ import java.util.List;
 import csp.AllDiffConstraint;
 
 /**
- * All different constraint for Sudoku rows, cols and blocks
+ * All different constraint for Sudoku rows, cols and blocks.
  * @author JLepere2
  * @date 02/10/2018
  */

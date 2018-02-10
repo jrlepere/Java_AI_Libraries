@@ -6,7 +6,7 @@ import csp.CSP;
 import csp.Constraint;
 
 /**
- * Problem definition for Sudoku
+ * Problem definition for Sudoku.
  * @author JLepere2
  * @date 02/10/2018
  */

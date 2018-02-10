@@ -4,7 +4,7 @@ import java.util.List;
 import csp.Domain;
 
 /**
- * A domain for Sudoku variables (1-9 Integers)
+ * A domain for Sudoku variables (1-9 Integers).
  * @author JLepere2
  * @date 02/10/2018
  */

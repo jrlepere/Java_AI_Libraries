@@ -20,9 +20,12 @@ public class Main {
 		sudokuBoard[7] = new int[]{0,4,0,0,5,0,0,3,6};
 		sudokuBoard[8] = new int[]{7,0,3,0,1,8,0,0,0};
 		
+		// -- Finds Sudoku Solution -- //
 		SudokuProblem p = new SudokuProblem(sudokuBoard);
 		CSPDepthSearch<SudokuVariable, SudokuDomain, Integer> ds = new CSPDepthSearch<>();
 		IResultObject res = ds.execute(p);
+		
+		// -- Print Solution -- //
 		int count = 0;
 		for (Variable<SudokuDomain, Integer> v : (List<Variable<SudokuDomain, Integer>>) res.getObject("ASSIGNMENT")) {
 			System.out.print(v + " ");

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="state.State"/>
+<fullyQualifiedTypeName name="search_algorithm.PrioritySearch"/>
+<fullyQualifiedTypeName name="node.Node"/>
+<fullyQualifiedTypeName name="problem.Problem"/>
+<fullyQualifiedTypeName name="search_algorithm.IHeuristic"/>
+<fullyQualifiedTypeName name="search_algorithm.IPriority"/>
+<fullyQualifiedTypeName name="search_algorithm.ResultObject"/>
+<fullyQualifiedTypeName name="local_search.HillClimb"/>
+<fullyQualifiedTypeName name="search.ResultObject"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="search.InformedSearchResult"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="local_search.SimulatedAnnealing"/>
+<fullyQualifiedTypeName name="local_search.ObjectiveFunction"/>
+<fullyQualifiedTypeName name="local_search.SimulatedAnnealing.Scheduler"/>
+<fullyQualifiedTypeName name="local_search.RandomRestartHillClimb"/>
+<fullyQualifiedTypeName name="local_search.GeneticAlgorithmSearch"/>
+<fullyQualifiedTypeName name="NQueensStateBitStreamConverstion"/>
+<fullyQualifiedTypeName name="local_search.GeneticAlgorithmSearch.Individual"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="search.LocalSearch"/>
+<fullyQualifiedTypeName name="local_search.LocalSearchResult"/>
+<fullyQualifiedTypeName name="java.util.PriorityQueue"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="search.ISearch"/>
+<fullyQualifiedTypeName name="search.Node"/>
+<fullyQualifiedTypeName name="uninformed_search.UninformedSearchResult"/>
+<fullyQualifiedTypeName name="problem.Action"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="problem.State"/>
+<fullyQualifiedTypeName name="csp.UnaryConstraint"/>
+<fullyQualifiedTypeName name="csp.Variable"/>
+<fullyQualifiedTypeName name="csp.Domain"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="CADomain"/>
+<fullyQualifiedTypeName name="csp.CSP"/>
+<fullyQualifiedTypeName name="CAVariable"/>
+<fullyQualifiedTypeName name="csp.EqualVariablesConstraint"/>
+<fullyQualifiedTypeName name="CAConstraint"/>
+</qualifiedTypeNameHistroy>

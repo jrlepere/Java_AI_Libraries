@@ -1,0 +1,64 @@
+package csp_search;
+
+import java.util.List;
+import java.util.Stack;
+
+import csp.CSP;
+import csp.Constraint;
+import csp.Domain;
+import csp.Variable;
+import search.IResultObject;
+
+public class CSPDepthSearch<X extends Variable<D,V>, D extends Domain<V>, V> implements ICSPSearch<X,D,V> {
+
+	public IResultObject execute(CSP<X, D, V> p) {
+		
+		constraints = p.getConstraints();
+		
+		Stack<List<X>> assignments = new Stack<>();
+		assignments.add(p.getVariables());
+		while (true) {
+			if (assignments.isEmpty()) return null;
+			List<X> assignment = assignments.pop();
+			if (!assignmentIsValid(assignment)) continue;
+			if (assignmentIsComplete(assignment)) return new CSPResultObject<X>(assignment);
+			X x = getNextVariableForAssignment(assignment);
+			for (V v : x.getDomain().getValues()) {
+				
+			}
+		}
+		
+	}
+	
+	public IResultObject backtrack(List<X> assignment) {
+		if (!assignmentIsValid(assignment)) return null;
+		if (assignmentIsComplete(assignment)) return new CSPResultObject<X>(assignment);
+		return null;
+	}
+	
+	private boolean assignmentIsValid(List<X> assignment) {
+		for (Constraint c : constraints) {
+			if (c.isViolation()) return false;
+		}
+		return true;
+	}
+	
+	private boolean assignmentIsComplete(List<X> assignment) {
+		for (X x : assignment) {
+			if (!x.isAssigned()) return false;
+		}
+		return true;
+	}
+	
+	private X getNextVariableForAssignment(List<X> assignment) {
+		for (X x : assignment) {
+			if (!x.isAssigned()) return x;
+		}
+		return null;
+	}
+	
+	private List<Constraint> constraints;
+
+
+
+}

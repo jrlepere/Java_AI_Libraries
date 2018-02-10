@@ -1,0 +1,10 @@
+package csp;
+
+/**
+ * A search algorithm interface for a CSP problem
+ * @author JLepere2
+ * @date 02/10/2018
+ */
+public interface ICSPSearch {
+
+}

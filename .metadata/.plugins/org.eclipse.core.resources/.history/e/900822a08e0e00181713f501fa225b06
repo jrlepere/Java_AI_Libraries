@@ -1,0 +1,20 @@
+package csp;
+
+import problem.Problem;
+import search.IResultObject;
+
+/**
+ * A search algorithm interface for a CSP problem
+ * @author JLepere2
+ * @date 02/10/2018
+ */
+public interface ICSPSearch {
+
+	/**
+	 * Executes the search algorithm on the passed Problem.
+	 * @param p the Problem p
+	 * @return the result of executing the search algorithm
+	 */
+	public IResultObject execute(Problem p);
+	
+}

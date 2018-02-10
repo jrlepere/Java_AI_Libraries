@@ -1,0 +1,10 @@
+package csp_search;
+
+import java.util.Set;
+
+import search.AResultObject;
+
+public class CSPResultObject extends AResultObject {
+
+
+}

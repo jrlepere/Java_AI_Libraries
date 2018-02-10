@@ -1,0 +1,39 @@
+package csp_search;
+
+import java.util.List;
+import java.util.Stack;
+
+import csp.CSP;
+import csp.Constraint;
+import csp.Domain;
+import csp.Variable;
+import search.IResultObject;
+
+public class CSPDepthSearch<X extends Variable<D,V>, D extends Domain<V>, V> implements ICSPSearch<X,D,V> {
+
+	public IResultObject execute(CSP<X, D, V> p) {
+		
+		constraints = p.getConstraints();
+		
+		Stack<List<X>> assignments = new Stack<>();
+		assignments.add(p.getVariables());
+		while (true) {
+			if (assignments.isEmpty()) return null;
+			List<X> assignment = assignments.pop();
+			if (!assignmentIsValid(assignment)) continue;
+		}
+		
+	}
+	
+	private boolean assignmentIsValid(List<X> assignment) {
+		for (Constraint c : constraints) {
+			if (c.isViolation()) return false;
+		}
+		return true;
+	}
+	
+	private List<Constraint> constraints;
+
+
+
+}

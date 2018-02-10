@@ -1,0 +1,31 @@
+package csp_search;
+
+import java.util.Set;
+
+import csp.CSP;
+import csp.Constraint;
+import csp.Domain;
+import csp.Variable;
+import search.IResultObject;
+
+public class CSPDepthSearch<X extends Variable<D,V>, D extends Domain<V>, V> implements ICSPSearch<X,D,V> {
+
+	public IResultObject execute(CSP<X, D, V> p) {
+		
+		Set<X> vars = p.getVariables();
+		Set<Constraint> constraints = p.getConstraints();
+		
+		return null;
+		
+	}
+	
+	private IResultObject backtrack(Set<X> assignment, Set<Constraint> constraints) {
+		for (Constraint c : constraints) {
+			if (c.isViolation()) return null;
+		}
+		return null;
+	}
+
+
+
+}

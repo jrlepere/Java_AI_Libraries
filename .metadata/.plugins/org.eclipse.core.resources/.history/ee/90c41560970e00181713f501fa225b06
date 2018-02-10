@@ -1,0 +1,11 @@
+import csp_search.CSPDepthSearch;
+
+public class Main {
+
+	public static void main(String[] args) {
+		CAProblem p = new CAProblem();
+		CSPDepthSearch<CAVariable, CADomain, Color> ds = new CSPDepthSearch<>();
+		System.out.println(ds.execute(p));
+	}
+	
+}

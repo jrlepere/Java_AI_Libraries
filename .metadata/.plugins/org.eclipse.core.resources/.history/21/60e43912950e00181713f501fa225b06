@@ -1,0 +1,7 @@
+package csp;
+
+public interface Constraint extends Comparable<Constraint> {
+	
+	public boolean isViolation();
+	
+}

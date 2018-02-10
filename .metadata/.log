@@ -281,3 +281,9 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.core.net 1 0 2018-02-10 10:08:26.371
 !MESSAGE System property http.nonProxyHosts has been set to smtp.mail.yahoo.com|*.smtp.mail.yahoo.com|25|*.25 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-02-10 10:50:53.500
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-02-10 10:50:53.697
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

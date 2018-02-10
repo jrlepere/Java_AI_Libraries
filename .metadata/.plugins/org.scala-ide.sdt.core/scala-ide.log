@@ -18,3 +18,15 @@ when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
 when weaving classes 
 when weaving 
  [Xlint:cantFindType]
+2018-02-10 10:43:16,118 ERROR [Info view input computer] - System.err - Exception in thread "Info view input computer"
+2018-02-10 10:43:16,119 ERROR [Info view input computer] - System.err - java.lang.IllegalArgumentException: assign (not open) [in Variable [in [Working copy] Variable.java [in csp [in src [in search_library]]]]] does not exist
+2018-02-10 10:43:16,119 ERROR [Info view input computer] - System.err - at org.eclipse.jdt.core.dom.CompilationUnitResolver$1Requestor.acceptAST(CompilationUnitResolver.java:795)
+2018-02-10 10:43:16,119 ERROR [Info view input computer] - System.err - at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:907)
+2018-02-10 10:43:16,119 ERROR [Info view input computer] - System.err - at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:588)
+2018-02-10 10:43:16,119 ERROR [Info view input computer] - System.err - at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:806)
+2018-02-10 10:43:16,119 ERROR [Info view input computer] - System.err - at org.eclipse.jdt.core.dom.ASTParser.createBindings(ASTParser.java:1057)
+2018-02-10 10:43:16,119 ERROR [Info view input computer] - System.err - at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeFieldConstantFromTypeAST(JavadocView.java:1336)
+2018-02-10 10:43:16,119 ERROR [Info view input computer] - System.err - at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeFieldConstant(JavadocView.java:1287)
+2018-02-10 10:43:16,119 ERROR [Info view input computer] - System.err - at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1045)
+2018-02-10 10:43:16,119 ERROR [Info view input computer] - System.err - at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:874)
+2018-02-10 10:43:16,119 ERROR [Info view input computer] - System.err - at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:728)

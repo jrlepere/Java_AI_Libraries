@@ -43,6 +43,11 @@
 <fullyQualifiedTypeName name="CAProblem"/>
 <fullyQualifiedTypeName name="csp_search.CSPDepthSearch"/>
 <fullyQualifiedTypeName name="search.IResultObject"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="csp_search.CSPResultObject"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="csp.AllDiffConstraint"/>
+<fullyQualifiedTypeName name="SudokuDomain"/>
+<fullyQualifiedTypeName name="SudokuVariable"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="SudokuConstraint"/>
 </qualifiedTypeNameHistroy>

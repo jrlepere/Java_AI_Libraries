@@ -1,0 +1,7 @@
+package csp_search;
+
+import csp.Variable;
+
+public interface SelectUnassignedVariable<V extends Variable> {
+	public V getVariable()
+}

@@ -1,0 +1,23 @@
+package csp;
+
+import java.util.List;
+
+public class ValueRestrictionConstraint<X extends Variable<D, V>, D extends Domain<V>, V> implements Constraint<X> {
+
+	public ValueRestrictionConstraint(X var, V value) {
+		this.value = value;
+	}
+
+	public boolean isViolation() {
+		return this.var.getAssignment().equals(value);
+	}
+	
+	private V value;
+
+	@Override
+	public List<X> getConstrainedValues() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

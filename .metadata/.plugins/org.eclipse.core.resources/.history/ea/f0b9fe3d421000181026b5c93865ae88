@@ -1,0 +1,57 @@
+import java.util.LinkedList;
+import java.util.List;
+
+import csp.CSP;
+import csp.Constraint;
+
+/**
+ * Definition for the Coloring Australia problem
+ * @author JLepere2
+ * @date 02/10/2018
+ */
+public class CAProblem implements CSP<CAVariable, CADomain, Color> {
+
+	public CAProblem() {
+		
+		// Variables
+		variables = new LinkedList<>();
+		CAVariable WA = new CAVariable("WA");
+		CAVariable NT = new CAVariable("NT");
+		CAVariable Q = new CAVariable("Q");
+		CAVariable SA = new CAVariable("SA");
+		CAVariable NSW = new CAVariable("NSW");
+		CAVariable V = new CAVariable("V");
+		CAVariable T = new CAVariable("T");
+		variables.add(WA);
+		variables.add(NT);
+		variables.add(Q);
+		variables.add(SA);
+		variables.add(NSW);
+		variables.add(V);
+		variables.add(T);
+		
+		// Constraints
+		constraints = new LinkedList<>();
+		constraints.add(new CAConstraint(SA, WA));
+		constraints.add(new CAConstraint(SA, NT));
+		constraints.add(new CAConstraint(SA, Q));
+		constraints.add(new CAConstraint(SA, NSW));
+		constraints.add(new CAConstraint(SA, V));
+		constraints.add(new CAConstraint(WA, NT));
+		constraints.add(new CAConstraint(NT, Q));
+		constraints.add(new CAConstraint(Q, NSW));
+		constraints.add(new CAConstraint(NSW, V));
+	}
+	
+	public List<CAVariable> getVariables() {
+		return variables;
+	}
+
+	public List<Constraint> getConstraints() {
+		return constraints;
+	}
+	
+	private List<CAVariable> variables;
+	private List<Constraint> constraints;
+
+}

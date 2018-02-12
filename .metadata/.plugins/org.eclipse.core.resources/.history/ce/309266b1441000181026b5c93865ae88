@@ -1,0 +1,8 @@
+package csp_search;
+
+import csp.Domain;
+import csp.Variable;
+
+public class MinimumRemainingValues<X extends Variable<D, V>, D extends Domain<V>, V> implements SelectUnassignedVariable<X, D, V> {
+
+}

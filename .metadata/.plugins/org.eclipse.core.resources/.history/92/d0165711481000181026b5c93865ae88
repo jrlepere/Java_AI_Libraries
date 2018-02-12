@@ -1,0 +1,18 @@
+package csp_search;
+
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+
+import csp.CSP;
+import csp.Domain;
+import csp.Variable;
+
+public class MostConstrainedValues<X extends Variable<D, V>, D extends Domain<V>, V> implements SelectUnassignedVariable<X, D, V> {
+
+	public X getVariableForAssignment(List<X> assignment, CSP<X, D, V> csp) {
+		Map<X, Integer> map = new TreeMap<>();
+		return null;
+	}
+
+}

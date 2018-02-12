@@ -1,0 +1,8 @@
+package csp;
+
+public interface Constraint<X extends Variable<?, ?>> {
+	
+	public boolean isViolation();
+	public List<X> getConstrainedValues();
+	
+}

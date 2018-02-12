@@ -1,0 +1,5 @@
+package csp;
+
+public class NaryConstraint <X extends Variable<?, ?>> implements Constraint<X> {
+
+}

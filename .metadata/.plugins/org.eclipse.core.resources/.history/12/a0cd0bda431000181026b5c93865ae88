@@ -1,0 +1,54 @@
+package csp_search;
+
+import java.util.List;
+
+import csp.CSP;
+import csp.Constraint;
+import csp.Domain;
+import csp.Variable;
+import search.IResultObject;
+
+public class CSPBacktrackingSearch<X extends Variable<D,V>, D extends Domain<V>, V> implements ICSPSearch<X,D,V> {
+
+	public IResultObject execute(CSP<X, D, V> p, SelectUnassignedVariable suv) {
+		return backtrack(p.getAssignment(), p);
+	}
+	
+	public IResultObject backtrack(List<X> assignment, CSP<X, D, V> csp) {
+		if (assignmentIsComplete(assignment)) return new CSPResultObject<X>(assignment);
+		X x = getNextVariableForAssignment(assignment);
+		for (V v : x.getDomain().getValues()) {
+			x.assign(v);
+			if (assignmentIsValid(csp)) {
+				IResultObject res = backtrack(assignment, csp);
+				if (res != null) {
+					return res;
+				}
+			}
+			x.assign(null);
+		}
+		return null;
+	}
+	
+	private boolean assignmentIsValid(CSP<X, D, V> csp) {
+		for (Constraint c : csp.getConstraints()) {
+			if (c.isViolation()) return false;
+		}
+		return true;
+	}
+	
+	private boolean assignmentIsComplete(List<X> assignment) {
+		for (X x : assignment) {
+			if (!x.isAssigned()) return false;
+		}
+		return true;
+	}
+	
+	private X getNextVariableForAssignment(List<X> assignment) {
+		for (X x : assignment) {
+			if (!x.isAssigned()) return x;
+		}
+		return null;
+	}
+
+}

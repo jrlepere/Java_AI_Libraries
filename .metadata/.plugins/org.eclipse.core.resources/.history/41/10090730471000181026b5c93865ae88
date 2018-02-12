@@ -1,0 +1,18 @@
+package csp;
+
+import java.util.List;
+
+public abstract class UnaryConstraint<X extends Variable<?, ?>> implements Constraint<X> {
+	
+	public UnaryConstraint(X var) {
+		this.vars = new LinkedList<>();
+		vars.add(var);
+	}
+	
+	public X getVariable() {
+		return var;
+	}
+	
+	protectedListt<X> vars;
+
+}

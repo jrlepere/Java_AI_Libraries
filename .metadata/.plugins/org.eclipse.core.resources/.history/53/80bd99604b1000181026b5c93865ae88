@@ -1,0 +1,21 @@
+import java.util.List;
+
+import csp.Variable;
+import csp_search.CSPBacktrackingSearch;
+import csp_search.CSPDepthSearch;
+import csp_search.ICSPSearch;
+import csp_search.MostConstrainedValues;
+import search.IResultObject;
+
+public class Main {
+
+	public static void main(String[] args) {
+		CAProblem p = new CAProblem();
+		ICSPSearch<CAVariable, CADomain, Color> ds = new CSPBacktrackingSearch<>(new MostConstrainedValues<>());
+		IResultObject res = ds.execute(p);
+		for (Variable<CADomain, Color> v : (List<Variable<CADomain, Color>>) res.getObject("ASSIGNMENT")) {
+			System.out.println(v);
+		}
+	}
+	
+}

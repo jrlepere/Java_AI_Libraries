@@ -1,0 +1,19 @@
+package csp;
+
+import java.util.List;
+
+public abstract class NaryConstraint<X extends Variable<?, ?>> implements Constraint<X> {
+
+	public NaryConstraint(List<X> vars) {
+		this.vars = vars;
+	}
+
+	@Override
+	public List<X> getConstrainedValues() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	private List<X> vars;
+
+}

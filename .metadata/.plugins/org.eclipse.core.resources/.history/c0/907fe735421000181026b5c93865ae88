@@ -1,0 +1,60 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+import csp.CSP;
+import csp.Constraint;
+
+/**
+ * Problem definition for Sudoku.
+ * @author JLepere2
+ * @date 02/10/2018
+ */
+public class SudokuProblem implements CSP<SudokuVariable, SudokuDomain, Integer> {
+
+	public SudokuProblem(int[][] sudokuBoard) {
+		
+		// -- CONSTRAINT HOLDERS -- //
+		ArrayList<List<SudokuVariable>> rows = new ArrayList<>(); 
+		ArrayList<List<SudokuVariable>> cols = new ArrayList<>();
+		ArrayList<List<SudokuVariable>> squares = new ArrayList<>();
+		for (int i = 0; i < 9; i ++) {
+			rows.add(new LinkedList<>());
+			cols.add(new LinkedList<>());
+			squares.add(new LinkedList<>());
+		}
+		
+		// -- ASSIGN VARIABLES AND CREATE CONSTRAINTS -- //
+		this.variables = new LinkedList<>();
+		for (int row = 0; row < 9; row ++) {
+			for (int col = 0; col < 9; col ++) {
+				SudokuVariable sv = new SudokuVariable();
+				if (sudokuBoard[row][col] != 0) sv.assign(sudokuBoard[row][col]);
+				rows.get(row).add(sv);
+				cols.get(col).add(sv);
+				squares.get(3 * (row / 3) + (col / 3)).add(sv);
+				variables.add(sv);
+			}
+		}
+		
+		// -- ADD CONSTRAINTS -- //
+		constraints = new LinkedList<>();
+		for (int i = 0; i < 9; i ++) {
+			constraints.add(new SudokuConstraint(rows.get(i)));
+			constraints.add(new SudokuConstraint(cols.get(i)));
+			constraints.add(new SudokuConstraint(squares.get(i)));
+		}
+	}
+	
+	public List<SudokuVariable> getVariables() {
+		return variables;
+	}
+
+	public List<Constraint> getConstraints() {
+		return constraints;
+	}
+	
+	private List<SudokuVariable> variables;
+	private List<Constraint> constraints;
+
+}

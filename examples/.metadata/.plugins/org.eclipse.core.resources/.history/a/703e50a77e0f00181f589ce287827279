@@ -1,0 +1,18 @@
+import java.util.LinkedList;
+import java.util.List;
+
+import csp.Domain;
+
+public class NFLDomain implements Domain<List<NFLMatchup>> {
+
+	public NFLDomain() {
+		this.values = new LinkedList<>();
+	}
+	
+	public List<List<NFLMatchup>> getValues() {
+		return values;
+	}
+
+	private List<List<NFLMatchup>> values;
+	
+}

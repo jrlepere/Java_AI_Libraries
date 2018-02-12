@@ -5,7 +5,7 @@ import csp.Variable;
  * @author JLepere2
  * @date 02/10/2018
  */
-public class CAVariable implements Variable<CADomain, Color> {
+public class CAVariable implements Variable<CADomain, Color>, Comparable<CAVariable> {
 
 	public CAVariable(String ID) {
 		this.domain = new CADomain();
@@ -31,6 +31,10 @@ public class CAVariable implements Variable<CADomain, Color> {
 	
 	public String toString() {
 		return ID + " - " + this.assignment.name();
+	}
+	
+	public int compareTo(CAVariable o) {
+		return this.ID.compareTo(o.ID);
 	}
 	
 	private CADomain domain;

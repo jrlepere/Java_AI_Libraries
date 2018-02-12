@@ -1,0 +1,7 @@
+import java.util.List;
+
+import csp.Domain;
+
+public class NFLDomain implements Domain<List<NFLMatchup>> {
+
+}

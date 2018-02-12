@@ -43,15 +43,15 @@ public class CAProblem implements CSP<CAVariable, CADomain, Color> {
 		constraints.add(new CAConstraint(NSW, V));
 	}
 	
-	public List<CAVariable> getVariables() {
+	public List<CAVariable> getAssignment() {
 		return variables;
 	}
 
-	public List<Constraint> getConstraints() {
+	public List<Constraint<CAVariable>> getConstraints() {
 		return constraints;
 	}
 	
 	private List<CAVariable> variables;
-	private List<Constraint> constraints;
+	private List<Constraint<CAVariable>> constraints;
 
 }

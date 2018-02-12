@@ -5,11 +5,12 @@ import csp.Variable;
  * @author JLepere2
  * @date 02/10/2018
  */
-public class SudokuVariable implements Variable<SudokuDomain, Integer>{
+public class SudokuVariable implements Variable<SudokuDomain, Integer>, Comparable<SudokuVariable> {
 
-	public SudokuVariable() {
+	public SudokuVariable(String uniqueID) {
 		this.domain = new SudokuDomain();
 		this.assignment = null;
+		this.uniqueID = uniqueID;
 	}
 	
 	public SudokuDomain getDomain() {
@@ -32,7 +33,12 @@ public class SudokuVariable implements Variable<SudokuDomain, Integer>{
 		return assignment.toString();
 	}
 
+	public int compareTo(SudokuVariable o) {
+		return this.uniqueID.compareTo(o.uniqueID);
+	}
+	
 	private SudokuDomain domain;
 	private Integer assignment;
+	private String uniqueID;
 	
 }

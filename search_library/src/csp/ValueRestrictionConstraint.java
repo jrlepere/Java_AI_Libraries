@@ -8,7 +8,7 @@ public class ValueRestrictionConstraint<X extends Variable<D, V>, D extends Doma
 	}
 
 	public boolean isViolation() {
-		return this.var.getAssignment().equals(value);
+		return getVar().getAssignment().equals(value);
 	}
 	
 	private V value;

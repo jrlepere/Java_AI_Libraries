@@ -1,21 +1,28 @@
 package csp;
 
-public abstract class BinaryConstraint<X extends Variable<?,?>> implements Constraint {
+import java.util.LinkedList;
+import java.util.List;
+
+public abstract class BinaryConstraint<X extends Variable<?,?>> implements Constraint<X> {
 
 	public BinaryConstraint(X var1, X var2) {
-		this.var1 = var1;
-		this.var2 = var2;
+		this.vars = new LinkedList<>();
+		vars.add(var1);
+		vars.add(var2);
 	}
 	
-	public X getVar1() {
-		return var1;
+	protected X getVar1() {
+		return vars.get(0);
 	}
 	
-	public X getVar2() {
-		return var2;
+	protected X getVar2() {
+		return vars.get(1);
 	}
 	
-	protected X var1;
-	protected X var2;
+	public List<X> getConstrainedVariables() {
+		return vars;
+	}
+	
+	protected List<X> vars;
 	
 }

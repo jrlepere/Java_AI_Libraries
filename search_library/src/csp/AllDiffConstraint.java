@@ -7,16 +7,17 @@ import java.util.List;
  * @author JLepere2
  * @date 02/10/2018
  */
-public class AllDiffConstraint<X extends Variable<?,?>> implements Constraint {
+public class AllDiffConstraint<X extends Variable<?,?>> extends NaryConstraint<X> {
 
-	public AllDiffConstraint(List<X> variables) {
-		this.variables = variables;
+	public AllDiffConstraint(List<X> vars) {
+		super(vars);
+		this.vars = vars;
 	}
 	
 	public boolean isViolation() {
-		for (X x : variables) {
+		for (X x : vars) {
 			if (x.getAssignment() == null) continue;
-			for (X y : variables) {
+			for (X y : vars) {
 				if (y.getAssignment() == null) continue;
 				if (x.equals(y)) continue;
 				if (x.getAssignment().equals(y.getAssignment())) return true;
@@ -25,6 +26,6 @@ public class AllDiffConstraint<X extends Variable<?,?>> implements Constraint {
 		return false;
 	}
 	
-	private List<X> variables;
+	private List<X> vars;
 
 }

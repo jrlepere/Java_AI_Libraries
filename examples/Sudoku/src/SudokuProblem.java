@@ -28,7 +28,7 @@ public class SudokuProblem implements CSP<SudokuVariable, SudokuDomain, Integer>
 		this.variables = new LinkedList<>();
 		for (int row = 0; row < 9; row ++) {
 			for (int col = 0; col < 9; col ++) {
-				SudokuVariable sv = new SudokuVariable();
+				SudokuVariable sv = new SudokuVariable(row + "-" + col);
 				if (sudokuBoard[row][col] != 0) sv.assign(sudokuBoard[row][col]);
 				rows.get(row).add(sv);
 				cols.get(col).add(sv);
@@ -46,15 +46,15 @@ public class SudokuProblem implements CSP<SudokuVariable, SudokuDomain, Integer>
 		}
 	}
 	
-	public List<SudokuVariable> getVariables() {
+	public List<SudokuVariable> getAssignment() {
 		return variables;
 	}
 
-	public List<Constraint> getConstraints() {
+	public List<Constraint<SudokuVariable>> getConstraints() {
 		return constraints;
 	}
 	
 	private List<SudokuVariable> variables;
-	private List<Constraint> constraints;
+	private List<Constraint<SudokuVariable>> constraints;
 
 }

@@ -1,0 +1,11 @@
+
+public class NFLMatchup {
+	
+	public NFLMatchup(NFLTeam home, NFLTeam visitor) {
+		this.home = home;
+		this.visitor = visitor;
+	}
+	
+	private NFLTeam home, visitor;
+	
+}

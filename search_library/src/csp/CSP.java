@@ -9,8 +9,8 @@ import java.util.List;
  */
 public interface CSP<X extends Variable<D,V>, D extends Domain<V>, V> {
 	
-	public List<X> getVariables();
+	public List<X> getAssignment();
 	
-	public List<Constraint> getConstraints();
+	public List<Constraint<X>> getConstraints();
 	
 }

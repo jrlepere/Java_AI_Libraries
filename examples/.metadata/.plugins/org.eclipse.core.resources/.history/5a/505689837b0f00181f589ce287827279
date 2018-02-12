@@ -1,0 +1,10 @@
+
+public class NFLMatchup {
+	
+	public NFLMatchup(NFLTeam home, NFLTeam visitor) {
+		
+	}
+	
+	private NFLTeam home, visitor;
+	
+}

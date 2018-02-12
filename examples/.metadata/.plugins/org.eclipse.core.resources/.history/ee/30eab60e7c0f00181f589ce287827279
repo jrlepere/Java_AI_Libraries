@@ -1,0 +1,16 @@
+import java.util.List;
+
+import csp.Domain;
+
+public class NFLDomain implements Domain<List<NFLMatchup>> {
+
+	public NFLDomain() {
+		
+	}
+	
+	public List<List<NFLMatchup>> getValues() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

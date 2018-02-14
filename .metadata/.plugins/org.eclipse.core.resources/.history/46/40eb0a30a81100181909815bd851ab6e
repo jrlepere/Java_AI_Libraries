@@ -1,0 +1,20 @@
+import games.Action;
+
+public class Mark implements Action<Board> {
+
+	public Mark(Symbol S, int row, int col) {
+		this.S = S;
+		this.row = row;
+		this.col = col;
+	}
+	
+	public Board execute(Board s) {
+		Symbol[][] board = s.getBoard();
+		return null;
+	}
+	
+	private Symbol S;
+	private int row;
+	private int col;
+
+}

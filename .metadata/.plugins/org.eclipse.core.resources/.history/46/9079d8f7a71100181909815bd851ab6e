@@ -1,0 +1,12 @@
+import games.State;
+
+public class Board implements State {
+	
+	public Board(Symbol[][] board) {
+		this.board = board;
+	}
+	
+	private Symbol[][] board;
+	public static final int BOARD_SIZE = 3;
+	
+}

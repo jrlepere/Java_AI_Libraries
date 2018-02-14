@@ -1,0 +1,42 @@
+import java.util.LinkedList;
+import java.util.List;
+
+import games.Problem;
+
+public class TicTacToe implements Problem<Mark, Board> {
+
+	public TicTacToe() {
+		this.MAX = Symbol.X;
+		this.MIN = Symbol.O;
+	}
+	
+	public List<Mark> getActions(Board s) {
+		List<Mark> marks = new LinkedList<>();
+		Symbol marker;
+		if (s.getMarkCount() % 2 == 0) marker = MAX;
+		else marker = MIN;
+		for (int i = 0 i < Board.BOARD_SIZE; i ++) {
+			
+		}
+		return null;
+	}
+
+	public Board getInitialState() {
+		return Board.getInitialBoard();
+	}
+
+	public boolean isTerminalState(Board s) {
+		return s.isTerminal();
+	}
+
+	public int utilityFunction(Board s) {
+		Symbol winner = s.getWinner();
+		if (winner.equals(Symbol.X)) return 1;
+		if (winner.equals(Symbol.O)) return -1;
+		return 0;
+	}
+
+	private Symbol MAX;
+	private Symbol MIN;
+	
+}

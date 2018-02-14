@@ -1,0 +1,9 @@
+package games;
+
+import java.util.List;
+
+import problem.Action;
+
+public interface Problem {
+	public List<Action> getActions(State s);
+}

@@ -1,5 +1,0 @@
-import csp.Domain;
-
-public class NFLDomain extends Domain<List<NFLMatchup>> {
-
-}

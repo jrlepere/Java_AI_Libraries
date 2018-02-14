@@ -1,0 +1,5 @@
+package games;
+
+public class AlphaBeta<A extends Action<S>, S extends State> implements Decision<A, S>{
+
+}

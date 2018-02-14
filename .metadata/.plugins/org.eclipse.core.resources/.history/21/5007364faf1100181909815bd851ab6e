@@ -1,0 +1,17 @@
+package games;
+
+public class MiniMax<A extends Action<S>, S extends State> implements Decision<S> {
+
+	public MiniMax(Problem<A, S> p) {
+		this.p = p;
+	}
+	
+	public A getOptimalSuccessor(S s) {
+		A bestAction = null;
+		int bestActionValue = Integer.MIN_VALUE;
+		return null;
+	}
+
+	private Problem p;
+	
+}

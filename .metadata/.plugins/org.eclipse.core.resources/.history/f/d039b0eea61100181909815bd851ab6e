@@ -1,0 +1,7 @@
+import games.State;
+
+public class Board implements State {
+
+	public Board
+	
+}

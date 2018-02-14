@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+import games.Decision;
+import games.MiniMax;
+import games.Problem;
+
+public class Main {
+		
+	public static void main(String[] args) {
+		Problem<Mark, Board> p = new TicTacToe();
+		Decision<Mark, Board> d = new MiniMax<>(p);
+		Board init = p.getInitialState();
+		System.out.println(init);
+		Board s1 = d.getOptimalSuccessor(init).execute(init);
+		System.out.println(s1);
+		Board s2 = d.getOptimalSuccessor(s1).execute(s1);
+		System.out.println(s2);
+		Board s3 = d.getOptimalSuccessor(s2).execute(s2);
+		System.out.println(s3);
+		Board s4 = d.getOptimalSuccessor(s3).execute(s3);
+		System.out.println(s4);
+		
+		Scanner in = new Scanner(System.in);
+		Board s = p.getInitialState();
+		while (!p.isTerminalState(s)) {
+			
+		}
+	}
+	
+}

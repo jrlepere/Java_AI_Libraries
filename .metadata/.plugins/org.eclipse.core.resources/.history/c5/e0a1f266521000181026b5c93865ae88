@@ -1,0 +1,12 @@
+package csp_search;
+
+import csp.Domain;
+import csp.Variable;
+
+public class Inference<X extends Variable<D, ?>, D extends Domain<?>> {
+
+	public Inference() {
+		
+	}
+	
+}

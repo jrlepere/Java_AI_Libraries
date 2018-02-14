@@ -1,0 +1,11 @@
+import games.Action;
+import games.State;
+
+public class Mark implements Action {
+
+	public State execute(State s) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

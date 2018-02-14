@@ -90,3 +90,43 @@ when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionA
 when weaving classes 
 when weaving 
  [Xlint:cantFindType]
+2018-02-14 08:31:10,496 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-14 08:31:25,915 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-14 08:31:54,936 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.core.breakpoints.JavaClassPrepareBreakpoint
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-14 08:32:32,288 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.JDIModelPresentation
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-14 08:43:31,698 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-14 08:43:41,266 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.core.breakpoints.JavaClassPrepareBreakpoint
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-14 08:43:42,270 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-14 08:44:52,225 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]

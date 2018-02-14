@@ -1,0 +1,41 @@
+package games;
+
+public class MiniMax<A extends Action<S>, S extends State> implements Decision<S> {
+
+	public MiniMax(Problem<A, S> p) {
+		this.p = p;
+	}
+	
+	public A getOptimalSuccessor(S s) {
+		A bestAction = null;
+		int bestActionValue = Integer.MIN_VALUE;
+		for (A a : p.getActions(s)) {
+			int v = minValue(a.execute(s));
+			if (v > bestActionValue) {
+				bestAction = a;
+				bestActionValue = v;
+			}
+		}
+		return null;
+	}
+	
+	private int minValue(S s) {
+		if (p.isTerminalState(s)) return p.utilityFunction(s);
+		int v = Integer.MAX_VALUE;
+		for (Action a : p.getActions(s)) {
+			
+		}
+		return v;
+	}
+	
+	private int maxValue(S s) {
+		if (p.isTerminalState(s)) return p.utilityFunction(s);
+		int v = Integer.MIN_VALUE;
+		for (Action a : p.getActions(s)) {
+			
+		}
+	}
+
+	private Problem<A, S> p;
+	
+}

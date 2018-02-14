@@ -1,0 +1,36 @@
+import games.State;
+
+public class Board implements State {
+	
+	public Board(Symbol[][] board) {
+		this.board = board;
+	}
+	
+	public Symbol[][] getBoard() {
+		return board;
+	}
+	
+	public static Board getInitialBoard() {
+		Symbol[][] board = new Symbol[Board.BOARD_SIZE][Board.BOARD_SIZE];
+		for (int i = 0; i < Board.BOARD_SIZE; i ++) {
+			for (int j = 0; j < Board.BOARD_SIZE; j ++) {
+				board[i][j] = Symbol.B;
+			}
+		}
+		return new Board(board);
+	}
+	
+	public boolean isTerminal() {
+		// ROW TEST
+		if (board[0][0] != Symbol.B && (board[0][0].equals(board[0][1]) && board[0][1].equals(board[0][2]))) return true;
+		if (board[1][0] != Symbol.B && (board[1][0].equals(board[1][1]) && board[1][1].equals(board[1][2]))) return true;
+		if (board[2][0] != Symbol.B && (board[2][0].equals(board[2][1]) && board[2][1].equals(board[2][2]))) return true;
+		// COL TEST
+		if (board[0][0] != Symbol.B && (board[0][0].equals(board[1][0]) && board[1][0].equals(board[2][0]))) return true;
+		return false;
+	}
+	
+	private Symbol[][] board;
+	public static final int BOARD_SIZE = 3;
+	
+}

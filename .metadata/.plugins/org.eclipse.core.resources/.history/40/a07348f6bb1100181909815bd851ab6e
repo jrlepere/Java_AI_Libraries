@@ -1,0 +1,45 @@
+package games;
+
+public class AlphaBeta<A extends Action<S>, S extends State> implements Decision<A, S>{
+
+	public AlphaBeta(Problem<A, S> p) {
+		this.p = p;
+	}
+	
+	public A getOptimalSuccessor(S s) {
+		A bestAction = null;
+		int bestActionValue = Integer.MIN_VALUE;
+		for (A a : p.getActions(s)) {
+			int alpha = Integer.MIN_VALUE;
+			int v = minValue(a.execute(s), alpha, Integer.MAX_VALUE, p.getPlayer(s));
+			if (v > bestActionValue) {
+				bestAction = a;
+				bestActionValue = v;
+			}
+		}
+		return bestAction;
+	}
+	
+	private int minValue(S s, int alpha, int beta, Player player) {
+		if (p.isTerminalState(s)) return p.utilityFunction(s, player);
+		int v = Integer.MAX_VALUE;
+		for (A a : p.getActions(s)) {
+			int x = maxValue(a.execute(s), player);
+			if (x < v) v = x;
+		}
+		return v;
+	}
+	
+	private int maxValue(S s, int alpha, int beta, Player player) {
+		if (p.isTerminalState(s)) return p.utilityFunction(s, player);
+		int v = Integer.MIN_VALUE;
+		for (A a : p.getActions(s)) {
+			int x = minValue(a.execute(s), player);
+			if (x > v) v = x;
+		}
+		return v;
+	}
+
+	private Problem<A, S> p;
+
+}

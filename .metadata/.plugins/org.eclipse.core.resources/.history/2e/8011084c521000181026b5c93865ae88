@@ -1,0 +1,11 @@
+package csp_search;
+
+import csp.Variable;
+
+public class Inference<X extends Variable<?, ?>> {
+
+	public Inference() {
+		
+	}
+	
+}

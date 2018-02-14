@@ -1,0 +1,89 @@
+import games.State;
+
+public class Board implements State {
+	
+	public Board(Symbol[][] board) {
+		this.board = board;
+		
+		// GET TERMINALITY
+		// ROW TEST
+		if (board[0][0] != Symbol.B && (board[0][0].equals(board[0][1]) && board[0][1].equals(board[0][2]))) {
+			isTerminal = true;
+			if (board[0][0] == Symbol.X) utility = 1;
+			else utility = -1;
+		}
+		if (board[1][0] != Symbol.B && (board[1][0].equals(board[1][1]) && board[1][1].equals(board[1][2]))) {
+			isTerminal = true;
+			if (board[1][0] == Symbol.X) utility = 1;
+			else utility = -1;
+		}
+		if (board[2][0] != Symbol.B && (board[2][0].equals(board[2][1]) && board[2][1].equals(board[2][2]))) {
+			isTerminal = true;
+			if (board[2][0] == Symbol.X) utility = 1;
+			else utility = -1;
+		}
+		// COL TEST
+		if (board[0][0] != Symbol.B && (board[0][0].equals(board[1][0]) && board[1][0].equals(board[2][0]))) {
+			isTerminal = true;
+			if (board[0][0] == Symbol.X) utility = 1;
+			else utility = -1;
+		}
+		if (board[0][1] != Symbol.B && (board[0][1].equals(board[1][1]) && board[1][1].equals(board[2][1]))) {
+			isTerminal = true;
+			if (board[0][1] == Symbol.X) utility = 1;
+			else utility = -1;
+		}
+		if (board[0][2] != Symbol.B && (board[0][2].equals(board[1][2]) && board[1][2].equals(board[2][2]))) {
+			isTerminal = true;
+			if (board[0][2] == Symbol.X) utility = 1;
+			else utility = -1;
+		}
+		// Diagonal Test
+		if (board[0][0] != Symbol.B && (board[0][0].equals(board[1][1]) && board[1][1].equals(board[2][2]))) {
+			isTerminal = true;
+			if (board[0][0] == Symbol.X) utility = 1;
+			else utility = -1;
+		}
+		if (board[0][2] != Symbol.B && (board[0][2].equals(board[1][1]) && board[1][1].equals(board[2][0]))) {
+			isTerminal = true;
+			if (board[0][0] == Symbol.X) utility = 1;
+			else utility = -1;
+		}
+		
+	}
+	
+	public Symbol[][] getBoard() {
+		return board;
+	}
+	
+	public static Board getInitialBoard() {
+		Symbol[][] board = new Symbol[Board.BOARD_SIZE][Board.BOARD_SIZE];
+		for (int i = 0; i < Board.BOARD_SIZE; i ++) {
+			for (int j = 0; j < Board.BOARD_SIZE; j ++) {
+				board[i][j] = Symbol.B;
+			}
+		}
+		return new Board(board);
+	}
+	
+	public boolean isTerminal() {
+		// ROW TEST
+		if (board[0][0] != Symbol.B && (board[0][0].equals(board[0][1]) && board[0][1].equals(board[0][2]))) return true;
+		if (board[1][0] != Symbol.B && (board[1][0].equals(board[1][1]) && board[1][1].equals(board[1][2]))) return true;
+		if (board[2][0] != Symbol.B && (board[2][0].equals(board[2][1]) && board[2][1].equals(board[2][2]))) return true;
+		// COL TEST
+		if (board[0][0] != Symbol.B && (board[0][0].equals(board[1][0]) && board[1][0].equals(board[2][0]))) return true;
+		if (board[0][1] != Symbol.B && (board[0][1].equals(board[1][1]) && board[1][1].equals(board[2][1]))) return true;
+		if (board[0][2] != Symbol.B && (board[0][2].equals(board[1][2]) && board[1][2].equals(board[2][2]))) return true;
+		// Diagonal Test
+		if (board[0][0] != Symbol.B && (board[0][0].equals(board[1][1]) && board[1][1].equals(board[2][2]))) return true;
+		if (board[0][2] != Symbol.B && (board[0][2].equals(board[1][1]) && board[1][1].equals(board[2][0]))) return true;
+		return false;
+	}
+	
+	private Symbol[][] board;
+	private boolean isTerminal;
+	private int utility;
+	public static final int BOARD_SIZE = 3;
+	
+}

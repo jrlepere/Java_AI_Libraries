@@ -1,0 +1,16 @@
+import games.*;
+
+public class Main {
+		
+	public static void main(String[] args) {
+		Problem<Mark, Board> p = new TicTacToe();
+		Decision<Mark, Board> d = new MiniMax<>(p);
+		Board init = p.getInitialState();
+		System.out.println(init);
+		Board s1 = d.getOptimalSuccessor(init).execute(init);
+		System.out.println(s1);
+		Board s2 = d.getOptimalSuccessor(s1).execute(s1);
+		System.out.println(s2);
+	}
+	
+}

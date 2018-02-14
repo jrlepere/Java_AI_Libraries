@@ -1,0 +1,23 @@
+import java.util.Arrays;
+
+import games.Action;
+
+public class Mark implements Action<Board> {
+
+	public Mark(Symbol S, int row, int col) {
+		this.S = S;
+		this.row = row;
+		this.col = col;
+	}
+	
+	public Board execute(Board s) {
+		Symbol[][] newBoard = Arrays.copyOf(s.getBoard(), Board.BOARD_SIZE);
+		newBoard[row][col] = S; 
+		return null;
+	}
+	
+	private Symbol S;
+	private int row;
+	private int col;
+
+}

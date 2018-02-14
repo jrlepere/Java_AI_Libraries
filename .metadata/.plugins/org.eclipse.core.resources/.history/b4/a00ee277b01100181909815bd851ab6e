@@ -1,0 +1,10 @@
+import games.*;
+
+public class Main {
+		
+	public static void main(String[] args) {
+		Problem p = new TicTacToe();
+		Decision d = new MiniMax<>(p);
+	}
+	
+}

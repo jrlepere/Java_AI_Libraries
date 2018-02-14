@@ -1,0 +1,30 @@
+import java.util.List;
+
+import games.Problem;
+import games.State;
+import problem.Action;
+
+public class TicTacToe implements Problem {
+
+	public TicTacToe() {
+		
+	}
+	
+	public List<Action> getActions(State s) {
+		return null;
+	}
+
+	public State getInitialState() {
+		Symbol[][] board = new Symbol[Board.BOARD_SIZE][Board.BOARD_SIZE];
+		return null;
+	}
+
+	public boolean isTerminalState(State s) {
+		return false;
+	}
+
+	public int utilityFunction(State s) {
+		return 0;
+	}
+
+}

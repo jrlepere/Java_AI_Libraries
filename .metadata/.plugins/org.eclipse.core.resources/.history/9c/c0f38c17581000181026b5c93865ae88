@@ -1,0 +1,23 @@
+package csp_search;
+
+import csp.Variable;
+
+public class Inference<X extends Variable<?, V>, V> {
+
+	public Inference(X var, V value) {
+		this.var = var;
+		this.value = value;
+	}
+	
+	public X getVar() {
+		return var;
+	}
+	
+	public V getValue() {
+		return value;
+	}
+	
+	private X var;
+	private V value;
+	
+}

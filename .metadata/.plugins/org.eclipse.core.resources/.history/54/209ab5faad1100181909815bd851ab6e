@@ -1,0 +1,5 @@
+package games;
+
+public interface Decision<S extends State> {
+	public S getBestSuccessor(S s);
+}

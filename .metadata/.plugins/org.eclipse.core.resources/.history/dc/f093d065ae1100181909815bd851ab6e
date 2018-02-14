@@ -1,0 +1,16 @@
+package games;
+
+public class MiniMax implements Decision {
+
+	public Minimax(Problem p) {
+		
+	}
+	
+	public State getOptimalSuccessor(State s) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	
+}

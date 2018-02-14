@@ -1,0 +1,34 @@
+package games;
+
+import java.util.List;
+
+import problem.Action;
+
+/**
+ * A problem definition for a game
+ * @author JLepere2
+ * @date 02/14/2018
+ */
+public interface Problem {
+	
+	/**
+	 * Gets the initial state of the problem
+	 * @return the initial state of the problem
+	 */
+	public State getInitialState();
+	
+	/**
+	 * Gets a list of actions available from the given state
+	 * @param s the state
+	 * @return a list of actions
+	 */
+	public List<Action> getActions(State s);
+	
+	/**
+	 * Tests if the state is a terminal state
+	 * @param s the state
+	 * @return true if s is a terminal state, false otherwise
+	 */
+	public boolean isTerminalState(State s);
+	
+}

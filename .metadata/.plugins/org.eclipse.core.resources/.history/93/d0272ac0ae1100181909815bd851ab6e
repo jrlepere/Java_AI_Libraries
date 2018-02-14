@@ -1,0 +1,5 @@
+package games;
+
+public interface Decision {
+	public State getOptimalSuccessor(State s);
+}

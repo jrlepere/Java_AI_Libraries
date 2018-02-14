@@ -1,0 +1,5 @@
+package csp_search;
+
+public interface Inference {
+
+}

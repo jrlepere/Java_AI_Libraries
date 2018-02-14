@@ -1,0 +1,5 @@
+import games.Action;
+
+public class Mark implements Action {
+
+}

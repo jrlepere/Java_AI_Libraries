@@ -1,0 +1,34 @@
+import java.util.LinkedList;
+import java.util.List;
+
+import games.Problem;
+
+public class TicTacToe implements Problem<Mark, Board> {
+
+	public TicTacToe() {
+		this.MAX = Symbol.X;
+		this.MIN = Symbol.O;
+	}
+	
+	public List<Mark> getActions(Board s, Symbol) {
+		List<Mark> marks = new LinkedList<>();
+		
+		return null;
+	}
+
+	public Board getInitialState() {
+		return Board.getInitialBoard();
+	}
+
+	public boolean isTerminalState(Board s) {
+		return false;
+	}
+
+	public int utilityFunction(Board s) {
+		return 0;
+	}
+
+	private Symbol MAX;
+	private Symbol MIN;
+	
+}

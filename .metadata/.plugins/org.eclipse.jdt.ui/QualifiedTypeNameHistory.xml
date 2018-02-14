@@ -24,12 +24,9 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="search.LocalSearch"/>
 <fullyQualifiedTypeName name="local_search.LocalSearchResult"/>
-<fullyQualifiedTypeName name="java.util.PriorityQueue"/>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="search.ISearch"/>
 <fullyQualifiedTypeName name="search.Node"/>
 <fullyQualifiedTypeName name="uninformed_search.UninformedSearchResult"/>
-<fullyQualifiedTypeName name="problem.Action"/>
 <fullyQualifiedTypeName name="problem.State"/>
 <fullyQualifiedTypeName name="csp.UnaryConstraint"/>
 <fullyQualifiedTypeName name="csp.Variable"/>
@@ -44,10 +41,17 @@
 <fullyQualifiedTypeName name="csp_search.CSPDepthSearch"/>
 <fullyQualifiedTypeName name="search.IResultObject"/>
 <fullyQualifiedTypeName name="csp_search.CSPResultObject"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="csp.AllDiffConstraint"/>
 <fullyQualifiedTypeName name="SudokuDomain"/>
 <fullyQualifiedTypeName name="SudokuVariable"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="SudokuConstraint"/>
+<fullyQualifiedTypeName name="java.util.PriorityQueue"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="csp_search.MostConstrainedValues"/>
+<fullyQualifiedTypeName name="csp_search.MinimumRemainingValues"/>
+<fullyQualifiedTypeName name="csp_search.CSPBacktrackingSearch"/>
+<fullyQualifiedTypeName name="csp_search.Inference"/>
+<fullyQualifiedTypeName name="problem.Action"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

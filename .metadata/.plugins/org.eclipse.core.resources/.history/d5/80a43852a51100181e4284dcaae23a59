@@ -1,0 +1,14 @@
+package games;
+
+import java.util.List;
+
+import problem.Action;
+
+/**
+ * A problem definition for a game
+ * @author JLepere2
+ * @date 02/14/2018
+ */
+public interface Problem {
+	public List<Action> getActions(State s);
+}

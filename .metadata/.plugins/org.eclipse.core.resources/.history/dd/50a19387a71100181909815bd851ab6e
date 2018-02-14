@@ -1,0 +1,17 @@
+import games.State;
+
+public class Board implements State {
+	
+	public Board() {
+		board = new Mark[BOARD_SIZE][BOARD_SIZE];
+		for (int i = 0; i < BOARD_SIZE; i ++) {
+			for (int j = 0; j < BOARD_SIZE; j ++) {
+				board[i][j] = B;
+			}
+		}
+	}
+	
+	private Mark[][] board;
+	private static final int BOARD_SIZE = 3;
+	
+}

@@ -1,0 +1,10 @@
+package games;
+
+/**
+ * An action for a game.
+ * @author JLepere2
+ * @date 02/14/2018
+ */
+public interface Actions {
+	public State execute(State s);
+}

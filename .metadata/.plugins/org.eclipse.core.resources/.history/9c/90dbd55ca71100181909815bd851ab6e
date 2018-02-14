@@ -1,0 +1,12 @@
+import games.State;
+
+public class Board implements State {
+	
+	public Board() {
+		board = new boolean[BOARD_SIZE][BOARD_SIZE];
+	}
+	
+	private boolean[][] board;
+	private static final int BOARD_SIZE = 3;
+	
+}

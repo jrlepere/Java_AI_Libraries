@@ -1,0 +1,12 @@
+import games.Action;
+
+public class Mark implements Action<Board> {
+
+	
+	
+	public Board execute(Board s) {
+		
+		return null;
+	}
+
+}
